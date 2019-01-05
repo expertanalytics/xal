@@ -1,4 +1,4 @@
-# Editing your bio
+## Editing your bio
 
 TLDR: follow the patterns you can see in `content/about/employees`.
 
@@ -17,7 +17,7 @@ linkedin: https://www.linkedin.com/in/<something>
 email: <your-name>@xal.no
 ```
 
-# Writing news
+## Writing news
 
 Create a new page with
 ```sh
@@ -25,7 +25,7 @@ $ hugo new posts/look-ma-im-a-blogger/index.md
 ```
 then write something in it.
 
-# Running locally
+## Running locally
 
 Check the output with
 ```sh
@@ -33,7 +33,12 @@ $ hugo server -D
 ```
 which serves the page at `localhost:1313` with hot reloading and drafts enabled (the `-D`).
 
-# Publishing
+## Publishing
+
+Before you publish for the first time, you have to:
+```sh
+$ git submodule update --init --recursive
+```
 
 Make sure that none of the pages you want to publish are in draft mode:
 
