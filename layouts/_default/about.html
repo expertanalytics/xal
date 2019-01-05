@@ -10,7 +10,7 @@
 <article class="bio">
 
   {{ with .Resources.GetMatch "photo" -}}
-  <img src="{{ .RelPermalink }}" class="profilepic">
+  <img src="{{ .Permalink }}" class="profilepic">
   {{- end }}
 
   <div class="card">

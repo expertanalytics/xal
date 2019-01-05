@@ -13,7 +13,7 @@
     {{ .Content }}
     <ul>
       {{ range .Pages -}}
-      <li> <a href="{{ .URL }}">{{ .Title }}</a>
+      <li> <a href="{{ .URL | absURL }}">{{ .Title }}</a>
       {{- end }}
     </ul>
   </details>
@@ -23,7 +23,7 @@
 {{ else }}
 <ul>
   {{ range .Pages -}}
-  <li> <a href="{{ .URL }}">{{ .Title }}</a>
+  <li> <a href="{{ .URL | absURL }}">{{ .Title }}</a>
   {{- end }}
 </ul>
 {{ end }}
