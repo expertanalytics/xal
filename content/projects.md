@@ -4,7 +4,6 @@ date: 2019-01-04T20:27:58+01:00
 menu:
   main:
     name: "Projects"
-draft: true
 weight: 70
 ---
 

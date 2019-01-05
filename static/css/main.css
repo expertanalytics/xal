@@ -14,7 +14,7 @@ html {
 
 body {
     font-family: "Helvetica", "Arial", sans-serif;
-    font-size: 14pt;
+    font-size: 18px;
     line-height: 1.5;
     color: var(--main-color);
     margin: 0;
@@ -27,17 +27,18 @@ body {
 @media(max-width: 1300px) {
     body {
         grid-template-columns: 2em 1fr 2em;
+        font-size: 14px;
     }
-}
-
-h2 {
-    margin-top: 1em;
-    margin-bottom: .2em;
 }
 
 p {
     margin-top: .3em;
     margin-bottom: .5em;
+}
+
+h2 {
+    margin-top: 1em;
+    margin-bottom: .2em;
 }
 
 h1,
@@ -57,17 +58,14 @@ a.clear {
 
 nav > a {
     padding: 1em;
+    text-decoration: none;
 }
 
-header {
-    grid-row: 1;
-}
-footer {
-    grid-row: 3;
-    color: var(--light-text-color);
+a:hover {
+    text-decoration: underline;
 }
 
-#content {
+main {
     grid-column: 2;
     grid-row: 2;
     display: flex;
@@ -76,15 +74,43 @@ footer {
     align-items: beginning;
 }
 
-#content img {
+main img {
     display: flex;
     align-self: center;
+}
+
+header {
+    grid-row: 1;
+}
+
+footer {
+    grid-row: 3;
+    color: var(--light-text-color);
 }
 
 header, footer {
     text-align: center;
     grid-column: 1 / 4;
     padding: 1.5em;
+}
+
+details > summary {
+    cursor: pointer;
+}
+
+dt {
+    font-weight: bold;
+}
+
+ul {
+    margin-top: .2em;
+}
+
+img {
+    max-height: 40vh;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 1em;
 }
 
 .logo {
@@ -99,18 +125,12 @@ header, footer {
     min-height: 100%;
     justify-self: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 .center {
     text-align: center;
-}
-
-img {
-    max-height: 40vh;
-    max-width: 100%;
-    margin: 0 auto;
-    padding-top: 1em;
 }
 
 .bio {
@@ -119,7 +139,6 @@ img {
     grid-template-rows: auto auto;
     grid-template-areas: "photo bio" "nothing bio";
     column-gap: 2em;
-    /* border-top: solid 2px var(--border-color); */
     padding-bottom: 3em;
 }
 
@@ -142,18 +161,6 @@ img {
 
 .bio .card {
     grid-area: bio;
-}
-
-details > summary {
-    cursor: pointer;
-}
-
-dt {
-    font-weight: bold;
-}
-
-ul {
-    margin-top: .2em;
 }
 
 .byline {

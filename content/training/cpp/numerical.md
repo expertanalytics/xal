@@ -2,7 +2,6 @@
 title: "Numerical C++"
 date: 2019-01-05T14:06:11+01:00
 weight: 20
-draft: true
 ---
 
 If a program is performing any form of numerical operations, it is

@@ -1,7 +1,6 @@
 ---
 title: "Martin Alnæs"
 date: 2019-01-05T11:42:58+01:00
-draft: true
 weight: 10
 resources:
   - name: photo

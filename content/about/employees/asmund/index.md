@@ -1,8 +1,7 @@
 ---
 title: "Åsmund Ødegård"
 date: 2019-01-05T21:37:17+01:00
-draft: true
-weight: 7
+weight: 1
 resources:
   - name: photo
     src: asmund.jpeg

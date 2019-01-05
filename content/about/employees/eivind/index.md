@@ -1,7 +1,6 @@
 ---
 title: "Eivind Storm Aarnæs"
 date: 2019-01-05T11:05:37+01:00
-draft: true
 weight: 7
 resources:
   - name: photo

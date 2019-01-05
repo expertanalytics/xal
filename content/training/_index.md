@@ -1,7 +1,6 @@
 ---
 title: "Training"
 date: 2019-01-04T20:31:05+01:00
-draft: true
 menu: main
 weight: 80
 ---

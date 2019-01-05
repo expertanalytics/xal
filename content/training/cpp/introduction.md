@@ -2,7 +2,6 @@
 title: "Introduction to C++"
 date: 2019-01-05T13:38:37+01:00
 weight: 10
-draft: true
 ---
 
 An introduction to the C++ programming language. An excellent starting

@@ -1,7 +1,6 @@
 ---
-title: "About Us"
+title: "About Us"
 date: 2019-01-04T20:02:32+01:00
-draft: true
 menu: main
 weight: 100
 ---
