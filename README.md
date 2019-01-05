@@ -35,32 +35,4 @@ which serves the page at `localhost:1313` with hot reloading and drafts enabled 
 
 ## Publishing
 
-Before you publish for the first time, you have to:
-```sh
-$ git submodule update --init --recursive
-```
-
-Make sure that none of the pages you want to publish are in draft mode:
-
-```sh
-$ grep -r "draft: true" content
-```
-
-Compile:
-```sh
-$ hugo --minify
-```
-
-This will output the site to `public/` which is a git submodule of
-[github.com/expertanalytics/expertanalytics.github.io](https://github.com/expertanalytics/expertanalytics.github.io).
-
-Then 
-
-```sh
-$ cd public
-$ git commit -am "Publishing"
-$ git push origin master # This publishes the site
-$ cd ..
-$ git commit -am "I changed this and that"
-$ git push origin master
-```
+Pushing to master triggers an automatic deploy through Travis CI
