@@ -16,12 +16,15 @@
   <div class="card">
     <h3>{{ .Title }}</h3>
     <ul>
+      {{ with .Params.Role -}}
+      <li>{{ . }}
+      {{- end}}
       {{ with .Params.Linkedin -}}
       <li><a href="{{ . }}">LinkedIn</a>
-        {{- end }}
-        {{ with .Params.Email -}}
+      {{- end }}
+      {{ with .Params.Email -}}
       <li>email: <a href="mailto:{{ . }}">{{ . }}</a>
-        {{- end }}
+      {{- end }}
     </ul>
     {{ .Content }}
   </div>
