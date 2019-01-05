@@ -1,0 +1,25 @@
+
+{{ define "main" }}
+
+<h1 class="center">{{ .Title }}</h1>
+
+{{ range $p := .Pages }}
+<article>
+
+  <h2><a class="clear" href="{{ $p.URL }}">{{ $p.Title }}</a></h2>
+  <span class="byline">{{ dateFormat "Jan 2, 2006" .Date }}</span>
+
+  {{ $p.Summary | safeHTML }}
+
+  {{ with $p.Params.Illustration -}}
+  <img src="{{ $p.URL }}/{{ . }}" alt="Illustration">
+  {{- end }}
+
+  {{ if $p.Truncated -}}
+  <span class="more"><a href="{{ $p.URL }}">Read more</a></span>
+  {{- end }}
+
+</article>
+{{ end }}
+
+{{ end }}

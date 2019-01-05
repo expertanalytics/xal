@@ -1,0 +1,32 @@
+
+{{ define "main" }}
+
+<h1 class="center">{{ .Title }}</h1>
+
+{{ .Content }}
+
+<h2>Our consultants</h2>
+{{ range .Pages }}
+<article class="bio">
+
+  {{ with .Resources.GetMatch "photo" -}}
+  <img src="{{ .RelPermalink }}" class="profilepic">
+  {{- end }}
+
+  <div class="card">
+    <h3>{{ .Title }}</h3>
+    <ul>
+      {{ with .Params.Linkedin -}}
+      <li><a href="{{ . }}">LinkedIn</a>
+        {{- end }}
+        {{ with .Params.Email -}}
+      <li>email: <a href="mailto:{{ . }}">{{ . }}</a>
+        {{- end }}
+    </ul>
+    {{ .Content }}
+  </div>
+
+</article>
+{{ end }}
+
+{{ end }}

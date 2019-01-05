@@ -1,0 +1,6 @@
+baseURL = "https://expertanalytics.no/"
+languageCode = "en-us"
+title = "Expert Analytics"
+
+[params]
+copyright = "© Expert Analytics AS"

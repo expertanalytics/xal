@@ -1,0 +1,165 @@
+:root {
+    --main-color: #214478;
+    --dark-text-color: #137;
+    --light-text-color: #78a;
+    --link-color: #2c5aa0;
+    --background-color: #eee;
+    --border-color: #bcd;
+}
+
+html {
+    height: 100%;
+    background-color: var(--background-color);
+}
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14pt;
+    line-height: 1.5;
+    color: var(--main-color);
+    margin: 0;
+    display: grid;
+    min-height: 100%;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+@media(max-width: 1300px) {
+    body {
+        grid-template-columns: 2em 1fr 2em;
+    }
+}
+
+h2 {
+    margin-top: 1em;
+    margin-bottom: .2em;
+}
+
+p {
+    margin-top: .3em;
+    margin-bottom: .5em;
+}
+
+h1,
+h2,
+strong {
+    color: var(--dark-text-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
+a.clear {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+nav > a {
+    padding: 1em;
+}
+
+header {
+    grid-row: 1;
+}
+footer {
+    grid-row: 3;
+    color: var(--light-text-color);
+}
+
+#content {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    align-items: beginning;
+}
+
+#content img {
+    display: flex;
+    align-self: center;
+}
+
+header, footer {
+    text-align: center;
+    grid-column: 1 / 4;
+    padding: 1.5em;
+}
+
+.logo {
+    height: 17em;
+    max-width: 90vw;
+    max-height: 40vw;
+}
+
+.splash {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+img {
+    max-height: 40vh;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+.bio {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "photo bio" "nothing bio";
+    column-gap: 2em;
+    /* border-top: solid 2px var(--border-color); */
+    padding-bottom: 3em;
+}
+
+@media(max-width: 700px) {
+    .bio {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: "photo" "bio";
+    }
+}
+
+.bio h3, .bio img {
+    padding-top: 0;
+    margin-top: 1rem;
+}
+
+.bio img {
+    grid-area: photo;
+}
+
+.bio .card {
+    grid-area: bio;
+}
+
+details > summary {
+    cursor: pointer;
+}
+
+dt {
+    font-weight: bold;
+}
+
+ul {
+    margin-top: .2em;
+}
+
+.byline {
+    color: var(--light-text-color);
+}
+
+.more {
+    margin-top: 1em;
+}

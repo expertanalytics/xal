@@ -1,0 +1,31 @@
+
+{{ define "main" }}
+
+<h1 class="center">{{ .Title }}</h1>
+
+{{ .Content }}
+
+{{ if gt (len .Sections) 0 }}
+<article>
+  {{- range .Sections }}
+  <details>
+    <summary>{{ .Title }}</summary>
+    {{ .Content }}
+    <ul>
+      {{ range .Pages -}}
+      <li> <a href="{{ .URL }}">{{ .Title }}</a>
+      {{- end }}
+    </ul>
+  </details>
+
+  {{ end }}
+</article>
+{{ else }}
+<ul>
+  {{ range .Pages -}}
+  <li> <a href="{{ .URL }}">{{ .Title }}</a>
+  {{- end }}
+</ul>
+{{ end }}
+
+{{ end }}
