@@ -5,7 +5,7 @@ weight: 1
 resources:
   - name: photo
     src: asmund.jpeg
-role: co-founder, managing director
+role: Co-founder, managing director
 linkedin: https://no.linkedin.com/in/asmundodegard
 email: asmund@xal.no
 ---
