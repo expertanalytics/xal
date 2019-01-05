@@ -47,7 +47,7 @@ $ hugo --minify
 ```
 
 This will output the site to `public/` which is a git submodule of
-[github.com/expertanalytics/expertanalytics.github.io](github.com/expertanalytics/expertanalytics.github.io).
+[github.com/expertanalytics/expertanalytics.github.io](https://github.com/expertanalytics/expertanalytics.github.io).
 
 Then 
 
