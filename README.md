@@ -1,3 +1,5 @@
+# expertanalytics.github.io [![Build Status](https://travis-ci.org/expertanalytics/xal.svg?branch=master)](https://travis-ci.org/expertanalytics/xal)
+
 ## Editing your bio
 
 TLDR: follow the patterns you can see in `content/about/employees`.
