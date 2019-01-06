@@ -7,6 +7,16 @@
     --border-color: #bcd;
 }
 
+.xal-color-1 {
+    fill: #2c5aa0;
+}
+.xal-color-2 {
+    fill: #214478;
+}
+.xal-color-3 {
+    fill: #5f8dd3;
+}
+
 html {
     height: 100%;
     background-color: var(--background-color);
@@ -169,4 +179,49 @@ img {
 
 .more {
     margin-top: 1em;
+}
+
+@media(display-mode: fullscreen) {
+    :root {
+        --background-color: #001510;
+        --main-color: #5fd38d;
+        --dark-text-color: #8fefbd;
+        --light-text-color: #7a8;
+        --link-color: #5fd38d;
+        --strong-text: #9fffcd;
+    }
+    .xal-color-1 {
+        fill: #2ca05a;
+    }
+    .xal-color-2 {
+        fill: #217844;
+    }
+    .xal-color-3 {
+        fill: #5fd38d;
+    }
+    h1 {
+        text-shadow: 0 0 3px var(--strong-text);
+    }
+    h2, h3, strong {
+        color: var(--dark-text-color);
+        text-shadow: 0 0 2px var(--strong-text);
+    }
+    a:hover {
+        text-shadow: 0 0 2px var(--strong-text);
+        text-decoration: none;
+    }
+    a {
+        color: var(--strong-text);
+        text-decoration: none;
+    }
+    nav > a:hover {
+        text-decoration: none;
+    }
+    img {
+        padding: 0;
+        filter: sepia(100%) hue-rotate(60deg) brightness(70%) contrast(180%);
+    }
+    body {
+        font-family: Courier, monospace;
+    }
 }
