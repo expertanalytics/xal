@@ -23,7 +23,7 @@
       <li><a href="{{ . }}">LinkedIn</a>
       {{- end }}
       {{ with .Params.Email -}}
-      <li>email: <a href="mailto:{{ . }}">{{ . }}</a>
+      <li><a href="mailto:{{ . }}">{{ . }}</a>
       {{- end }}
     </ul>
     {{ .Content }}

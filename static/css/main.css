@@ -184,11 +184,11 @@ img {
 @media(display-mode: fullscreen) {
     :root {
         --background-color: #001510;
-        --main-color: #5fd38d;
-        --dark-text-color: #8fefbd;
-        --light-text-color: #7a8;
-        --link-color: #5fd38d;
-        --strong-text: #9fffcd;
+        --main-color: #5fd37d;
+        --dark-text-color: #8fefad;
+        --light-text-color: #7a7;
+        --link-color: #5fd37d;
+        --strong-text: #9fffbd;
     }
     .xal-color-1 {
         fill: #2ca05a;
@@ -219,6 +219,7 @@ img {
     }
     img {
         padding: 0;
+        mix-blend-mode: screen;
         filter: sepia(100%) hue-rotate(60deg) brightness(70%) contrast(180%);
     }
     body {
