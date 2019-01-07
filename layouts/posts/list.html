@@ -12,7 +12,7 @@
   {{ $p.Summary | safeHTML }}
 
   {{ with $p.Params.Illustration -}}
-  <img src="{{ $p.URL }}/{{ . }}" alt="Illustration">
+  <img src="{{ path.Join $p.URL . }}" alt="Illustration">
   {{- end }}
 
   {{ if $p.Truncated -}}
