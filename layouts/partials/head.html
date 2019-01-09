@@ -1,8 +1,10 @@
-
 <head>
+  {{- $style := resources.Get "css/main.css" | resources.Minify -}}
+  {{- $logo := resources.Get "xal.svg" | resources.Minify -}}
+  {{- $favicon := resources.Get "favicon-32x32.png" -}}
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
-  <link rel="icon" href="/xal.svg" type="image/svg+xml">
-  <link rel="icon" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}">
+  <link rel="icon" href="{{ $logo.RelPermalink }}" type="image/svg+xml">
+  <link rel="icon" href="{{ $favicon.RelPermalink }}" sizes="32x32">
   <title>{{ .Site.Title }} – {{ .Title }}</title>
 </head>
