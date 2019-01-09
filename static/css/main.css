@@ -225,4 +225,20 @@ img {
     body {
         font-family: Courier, monospace;
     }
+    .splash p:after {
+        content: '█';
+        animation: 1s blink step-end infinite;
+        margin-left: 3px;
+    }
+    @keyframes "blink" {
+        from, to {
+            color: transparent;
+            text-shadow: none;
+        }
+        50% {
+            color: var(--main-color);
+            text-shadow: 0 0 2px var(--strong-text);
+        }
+    }
+
 }

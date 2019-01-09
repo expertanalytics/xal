@@ -5,3 +5,5 @@ menu: training
 weight: 50
 ---
 
+These are courses for tools that do not associate directly with any
+particular programming language or platform.
