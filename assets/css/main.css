@@ -167,6 +167,7 @@ img {
 
 .bio img {
     grid-area: photo;
+    filter: grayscale(100%);
 }
 
 .bio .card {
