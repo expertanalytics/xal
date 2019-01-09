@@ -8,7 +8,7 @@ before_script:
 
 script:
   - hugo --minify
-  - echo next.expertanalytics.no > public/CNAME
+  - echo expertanalytics.no > public/CNAME
 
 deploy:
   provider: pages

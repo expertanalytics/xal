@@ -1,4 +1,4 @@
-# next.expertanalytics.no [![Build Status](https://travis-ci.org/expertanalytics/xal.svg?branch=master)](https://travis-ci.org/expertanalytics/xal)
+# expertanalytics.no [![Build Status](https://travis-ci.org/expertanalytics/xal.svg?branch=master)](https://travis-ci.org/expertanalytics/xal)
 
 ## Editing your bio
 
