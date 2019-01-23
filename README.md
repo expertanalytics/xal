@@ -38,3 +38,25 @@ which serves the page at `localhost:1313` with hot reloading and drafts enabled 
 ## Publishing
 
 Pushing to master triggers an automatic deploy through Travis CI
+
+## Requirements
+
+For template creation and local build install `hugo` https://gohugo.io/getting-started/installing/:
+
+#### Linux:
+```
+sudo apt-get install hugo
+```
+or
+```
+sudo pacman -Syu hugo
+```
+or what ever creazy pkg manger you use.
+
+#### Mac:
+If you have `brew`:
+```
+brew install hugo
+```
+if not get `brew`! Or Linux ;)
+
