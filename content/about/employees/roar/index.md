@@ -1,7 +1,6 @@
 ---
 title: "Roar Emaus"
 date: 2019-01-05T21:25:08+01:00
-draft: true
 weight: 16
 resources:
   - name: photo
