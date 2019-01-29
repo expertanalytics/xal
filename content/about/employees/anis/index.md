@@ -1,7 +1,6 @@
 ---
 title: "Anis"
 date: 2019-01-29T13:51:59+01:00
-draft: true
 weight: 22
 resources:
   - name: photo
