@@ -9,19 +9,16 @@ linkedin: https://www.linkedin.com/in/jonathan-feinberg-251b6892/
 email: jonathan@xal.no
 ---
 
-Jonathan holds a Ph.D. in mathematics from the University of Oslo with
-focus on statistics, probability and uncertainty quantification. His
-research interest include anything related to Bayesian
-theory/statistics, geo-statistics, graphical information system,
-machine learning, and building command line parsers.
+Jonathan is a seasoned consultant with a demonstrated history of working in the
+information technology and services industry, with broad experience ranging
+from designing, building, testing and maintaining large scale programming
+projects.
 
-Jonathan has much experience as a software developer from Simula
-Research Laboratory, Norway's highest ranked ICT research institution,
-His programming skills include an extensive knowledge of Python. This
-includes Numpy/Scipy, Scikit-learn, Pandas, and Keras to name some of
-the libraries he has experience with. He is also familiar with other
-languages, like C++, Matlab, R, Bash and VimL, and can easily adapt
-beyond this.
+He is a specialist within machine learning, stochastic modelling, statistics,
+and numerical programming. He has an eye for seeing possible solutions to the
+"hard" problems, and being able to quickly convert those into functioning
+prototypes.
 
-He also has extensive experience as a teacher from institutions such
-as the University of Oslo, Smerud Medical Research, and House of Math.
+He has a strong academical background with Doctor of Philosophy (Ph.D.) focused
+in Computational and Applied Mathematics and Statistics. He trained as
+a researcher, academical writer and as an academical communicator.
