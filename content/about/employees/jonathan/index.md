@@ -1,7 +1,6 @@
 ---
 title: "Jonathan Feinberg"
-date: 2019-01-06T21:41:18+01:00
-weight: 5
+date: 2016-01-04 
 resources:
   - name: photo
     src: jonathan.jpeg
