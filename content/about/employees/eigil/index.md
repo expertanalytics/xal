@@ -1,7 +1,6 @@
 ---
 title: "Eigil Skjæveland"
-date: 2019-01-06T16:08:09+01:00
-weight: 19
+date: 2018-08-01
 resources:
   - name: photo
     src: eigil.jpg
