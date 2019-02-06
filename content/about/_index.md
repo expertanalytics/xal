@@ -2,7 +2,7 @@
 title: "About Us"
 date: 2019-01-04T20:02:32+01:00
 menu: main
-weight: 100
+weight: 20
 ---
 
 Expert Analytics is a Norwegian consultancy offering high-quality
