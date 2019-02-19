@@ -18,8 +18,5 @@ various numerical methods and libraries. This has made him an
 experienced programmer and he is good at adapting to new systems as
 well as learning new programming languages.
 
-In addition to his physics background he is finishing a bachelor's
-degree in Applied Mathematics with Informatics at the University of
-Oslo. During his thesis he worked part-time with IT support at the
-Physics Department at the University of Oslo and taught science to
-children at the Forskerfabrikken summer school.
+For the past year, he has worked with Python development in the public 
+transportation sector for Ruter As.
