@@ -1,7 +1,6 @@
 ---
 title: "Ola Skavhaug"
-date: 2019-01-06T21:37:17+01:00
-weight: 2
+date: 2013-08-20
 resources:
   - name: photo
     src: ola.jpeg
