@@ -1,7 +1,6 @@
 ---
 title: "Alexander Fleischer"
-date: 2019-01-06T21:41:10+01:00
-weight: 13
+date: 2018-01-02
 resources:
   - name: photo
     src: alexander.jpeg
