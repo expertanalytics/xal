@@ -1,8 +1,9 @@
 ---
 title: "Trygve Bærland"
+date: 2019-02-01
 resources:
   - name: photo
-    src: trygve.jpeg
+    src: trygve.jpg
 linkedin: https://www.linkedin.com/in/trygve-b%C3%A6rland-a4b34417a/
 email: trygve@xal.no
 ---
