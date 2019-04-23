@@ -8,15 +8,15 @@ linkedin: https://www.linkedin.com/in/stianlagstad/
 email: stian@xal.no
 ---
 
-Stian finished his masters thesis at The University of Oslo in the spring of
-2016. During his time as a student he got exposed to several programming
+Stian finished his master's thesis at The University of Oslo in the spring of
+2016. During his time as a student, he got exposed to several programming
 languages, such as R, Python, Scheme, Java, and Javascript. In his work
-experience following that, first as a concultant for Knowit and then as a
+experience following that, first as a consultant for Knowit and then as a
 software engineer for Cognite, he spent a lot of time in the JVM world with
 Java and Scala.
 
 Stian believes in letting the compiler and linting tools do as much work as
-possible, because then he as the developer have fewer options to shoot himself
+possible because then he as the developer have fewer options to shoot himself
 in the foot. Following that, he is an eager supporter of strict, functional
 languages such as Haskell and Scala.
 
