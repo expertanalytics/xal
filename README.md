@@ -12,12 +12,16 @@ $ cp /path/to/your/face.png content/about/employees/<your-name>/
 Then make sure `index.md` is set up with something like this in the header:
 
 ```
+title: "your name"
+date: yyyy-mm-dd
 resources:
   - name: photo
     src: <something>.png
 linkedin: https://www.linkedin.com/in/<something>
 email: <your-name>@xal.no
 ```
+
+The date used should preferably be your date of employment in XAL.
 
 ## Writing news
 
