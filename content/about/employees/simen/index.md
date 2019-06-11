@@ -8,7 +8,7 @@ linkedin: http://www.linkedin.com/in/simen-tennoee
 email: simen@xal.no
 ---
 
-Simen is a computational scientist who submitted his Ph.D. in computational
+Simen is a computational scientist who finished his Ph.D. in computational
 neuroscience in 2019.
 He has a background from computational astrophysics where he wrote software for
 finding clusters of galaxies in cosmological N-body simulations.
