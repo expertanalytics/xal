@@ -19,7 +19,7 @@ technical and management skills, which he now put to good use as both Managing
 Director and a Senior Consultant in Expert Analytics. His main areas of
 technical expertise spans from advanced mathematical software development
 through web programming to scripting, and from administration of advanced ICT
-solutions and configuration management to operational work. Both through
+solutions and configuration management to operational work. Through
 education and practical hands-on experience he has developed strong analytical
 skills within his fields of expertise. Åsmund holds a PhD in Scientific
 Computing and a MSc in applied mathematics.
