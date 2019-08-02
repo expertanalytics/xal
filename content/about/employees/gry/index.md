@@ -1,5 +1,5 @@
 ---
-title: "Gry"
+title: "Gry M. Tveten"
 date: 2019-08-01
 resources:
   - name: photo
