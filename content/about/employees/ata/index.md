@@ -1,6 +1,6 @@
 ---
 title: "Ata Karakci"
-date: 2019-09-06
+date: 2019-09-01
 resources:
   - name: photo
     src: ata.jpg
