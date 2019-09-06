@@ -1,11 +1,10 @@
 ---
 title: "Ata Karakci"
-date: 2019-09-02T15:34:29+01:00
-weight: 17
+date: 2019-09-06
 resources:
   - name: photo
-    src: ata.png
-linkedin: https://www.linkedin.com/in/atakarakci/
+    src: ata.jpg
+linkedin: https://www.linkedin.com/in/atakarakci
 email: ata@xal.no
 ---
 
