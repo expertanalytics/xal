@@ -1,7 +1,6 @@
 ---
 title: "Sebastian Gjertsen"
-date: 2019-01-06T21:41:02+01:00
-weight: 15
+date: 2018-02-01
 resources:
   - name: photo
     src: sebastian.jpeg

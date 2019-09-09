@@ -1,7 +1,6 @@
 ---
 title: "Martin Alnæs"
-date: 2019-01-05T11:42:58+01:00
-weight: 10
+date: 2017-10-01
 resources:
   - name: photo
     src: martin.jpeg
