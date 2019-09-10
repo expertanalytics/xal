@@ -1,7 +1,6 @@
-language: go
-
-install:
-  - go get github.com/gohugoio/hugo
+dist: bionic
+addons:
+  snaps: hugo
 
 before_script:
   - rm -rf public
