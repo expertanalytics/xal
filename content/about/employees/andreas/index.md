@@ -1,7 +1,6 @@
 ---
 title: "Andreas Slyngstad"
-date: 2019-02-04T22:23:35+01:00
-weight: 11
+date: 2017-11-01
 resources:
   - name: photo
     src: andreas.png

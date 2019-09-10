@@ -1,7 +1,6 @@
 ---
 title: "Jakob Schreiner"
-date: 2019-01-06T21:40:38+01:00
-weight: 8
+date: 2017-01-16
 resources:
   - name: photo
     src: jakob.jpeg

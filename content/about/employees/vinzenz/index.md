@@ -1,7 +1,6 @@
 ---
 title: "Vinzenz Gregor Eck"
-date: 2019-01-06T21:41:29+01:00
-weight: 6
+date: 2016-11-14
 resources:
   - name: photo
     src: vinzenz.png

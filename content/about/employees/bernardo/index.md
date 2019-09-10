@@ -1,6 +1,6 @@
 ---
 title: "Bernardo de Oliveira"
-date: 2019-05-11T11:04:14+02:00
+date: 2018-09-01
 resources:
   - name: photo
     src: bernardo.jpg

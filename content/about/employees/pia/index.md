@@ -1,7 +1,6 @@
 ---
 title: "Pia Zacharias"
-date: 2019-01-06T21:41:29+01:00
-weight: 17
+date: 2018-04-16
 resources:
   - name: photo
     src: pia.png

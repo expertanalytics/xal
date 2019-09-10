@@ -1,7 +1,6 @@
 ---
 title: "Guttorm Kvaal"
-date: 2019-01-06T21:40:54+01:00
-weight: 9
+date: 2017-10-01
 resources:
   - name: photo
     src: guttorm.jpeg

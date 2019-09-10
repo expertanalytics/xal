@@ -1,6 +1,6 @@
 ---
 title: "Anis Ayati"
-date: 2019-01-01
+date: 2019-01-14
 resources:
   - name: photo
     src: anis.jpeg

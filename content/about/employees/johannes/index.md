@@ -1,7 +1,6 @@
 ---
 title: "Johannes Weissmann"
-date: 2019-01-29T06:52:29+01:00
-weight: 6
+date: 2018-01-01
 resources:
   - name: photo
     src: johannes.jpg
