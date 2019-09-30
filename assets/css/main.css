@@ -182,7 +182,7 @@ img {
     margin-top: 1em;
 }
 
-@media(display-mode: fullscreen) {
+@media(prefers-color-scheme: dark) {
     :root {
         --background-color: #001510;
         --main-color: #5fd37d;
