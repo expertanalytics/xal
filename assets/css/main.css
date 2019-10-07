@@ -218,11 +218,6 @@ img {
     nav > a:hover {
         text-decoration: none;
     }
-    img, .bio img {
-        padding: 0;
-        mix-blend-mode: screen;
-        filter: sepia(100%) hue-rotate(60deg) brightness(70%) contrast(180%);
-    }
     .splash p:after {
         content: '█';
         animation: 1s blink step-end infinite;
