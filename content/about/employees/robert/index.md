@@ -1,6 +1,21 @@
 ---
-title: "Robert"
-date: 2019-10-14T14:05:45+02:00
-draft: true
+title: "Robert Solli"
+date: 2019-10-14
+resources:
+    - name: photo
+      src: robert_face.jpg
+linkedin: https://www.linkedin.com/in/robert-solli/
+email: robert@xal.no
 ---
+Robert Solli is a specialist in scientific programming, with expertise in mathematical optimisation,
+statistical analysis and machine learning. He has solved a varied set of problems with this skillset, from 
+understanding complex physical systems to increasing student volunteer participation.
 
+Robert submitted his master's degree in Computational Physics in 2019. In the thesis, Robert analysed 
+reactions in a nuclear physics experiment with the goal of separate reaction products using machine learning 
+techniques. He completed the degree at the University of Oslo where he also worked as a research assistant. 
+In his work as a research assistant, he analysed and wrote a paper on understanding student interactions with 
+an online video course. 
+
+Robert is also an avid climber and takes as much delight in finding solutions to hard problems on a sheer 
+rock-face as to those presented by data.
