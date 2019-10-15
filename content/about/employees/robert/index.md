@@ -12,7 +12,7 @@ statistical analysis and machine learning. He has solved a varied set of problem
 understanding complex physical systems to increasing student volunteer participation.
 
 Robert submitted his master's degree in Computational Physics in 2019. In the thesis, Robert analysed 
-reactions in a nuclear physics experiment with the goal of separate reaction products using machine learning 
+events in a nuclear physics experiment to separate reaction products using machine learning 
 techniques. He completed the degree at the University of Oslo where he also worked as a research assistant. 
 In his work as a research assistant, he analysed and wrote a paper on understanding student interactions with 
 an online video course. 
