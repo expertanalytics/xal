@@ -15,7 +15,7 @@ of the following topics:
 
 - **Classification:** Identifying categories an object belongs to.
 - **Regression:** Predict values associated with objects.
-- **Clustering:** Automatic group similar objects into sets.
+- **Clustering:** Automatically group similar objects into sets.
 - **Dimension reduction:** Make large scale problems more manageable.
 - **Model selection:** Find and calibrate the best models.
 - **Preprocessing:** Normalizing of raw data preparing it for learning algorithms.
@@ -38,6 +38,6 @@ Dlib
 : Dlib is a modern C++ toolkit containing machine learning algorithms
   and tools for creating complex software in C++. The software is open
   source and cross platform compatible, and also features more general
-  purpose functionality for e.g. linear algebra, image processing, GUI
+  purpose functionality e.g. linear algebra, image processing, GUI
   etc. The library supports a number of machine learning algorithms,
-  such as Support Vector Machinesand neural networks.
+  such as Support Vector Machines and neural networks.
