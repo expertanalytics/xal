@@ -26,7 +26,7 @@ of the following topics:
 In this course we will focus on the application of tools to perform
 various aspects of machine learning, using the
 [Scikit-learn](https://scikit-learn.org/) toolkit. We will touch base
-on how the various algorithms works.
+on how the various algorithms work.
 
 ## Prerequisite
 
