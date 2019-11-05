@@ -15,18 +15,18 @@ of the following topics:
 
 - **Classification:** Identifying categories an object belongs to.
 - **Regression:** Predict values associated with objects.
-- **Clustering:** Automatic group similar objects into sets.
-- **Dimension reduction:** Make large scale problems more manageable.
+- **Clustering:** Automatically group similar objects into sets.
+- **Dimension reduction:** Make large-scale problems more manageable.
 - **Model selection:** Find and calibrate the best models.
 - **Preprocessing:** Normalizing of raw data preparing it for learning
   algorithms.
 
 ## Course Content
 
-In this course we will focus on the application oftools to perform
+In this course we will focus on the application of tools to perform
 various aspects of machine learning, using the
 [Scikit-learn](https://scikit-learn.org/) toolkit. We will touch base
-on how the various algorithms works
+on how the various algorithms works.
 
 ## Prerequisite
 
