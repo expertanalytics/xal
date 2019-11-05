@@ -24,7 +24,7 @@ language, introduced [here](/training/python/introduction/).
 ## Tools Introduced
 
 Distutils
-: Distutils package provides support for building and installing
+: The Distutils package provides support for building and installing
   additional modules into a Python installation. The new modules may
   either be 100% pure Python, extension modules written in C, or
   collections of Python packages which include modules coded in both
