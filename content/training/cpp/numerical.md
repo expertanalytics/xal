@@ -11,12 +11,12 @@ being executed is as optimized as possible.
 
 ## Course Content
 In this course we will introduce the numerical library Armadillo. We
-sill give an overview of the syntax, and how to employ the language to
-solve large scale numerical problems.
+will give an overview of the syntax, and how to employ the language to
+solve large-scale numerical problems.
 
 ## Prerequisite
 This course requires some familiarity with the C++ programming
-language, introduced here.
+language, introduced [here](/training/cpp/introduction/).
 
 ## Duration: 2 hours
 
