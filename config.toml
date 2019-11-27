@@ -4,3 +4,8 @@ title = "Expert Analytics"
 
 [params]
 copyright = "© Expert Analytics AS"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
