@@ -8,12 +8,13 @@
 {{ range .Pages }}
 <article>
 
+  <div>
+    <h3>{{ .Title }}</h3>
   {{ with .Resources.GetMatch "photo" -}}
   <img src="{{ .RelPermalink }}" class="servicespic">
   {{- end }}
 
-  <div>
-    <h3>{{ .Title }}</h3>
+
     {{ .Content }}
   </div>
 
