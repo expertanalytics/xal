@@ -1,6 +1,7 @@
 baseURL = "https://expertanalytics.no/"
 languageCode = "en-us"
 title = "Expert Analytics"
+googleAnalytics = "UA-153490291-1"
 
 [params]
 copyright = "© Expert Analytics AS"

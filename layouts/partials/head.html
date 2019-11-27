@@ -1,12 +1,5 @@
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153490291-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-153490291-1');
-  </script>
+  {{ template "_internal/google_analytics.html" . }}
   {{- $style := resources.Get "css/main.css" | resources.Minify -}}
   {{- $logo := resources.Get "xal.svg" | resources.Minify -}}
   {{- $favicon := resources.Get "favicon-32x32.png" -}}
