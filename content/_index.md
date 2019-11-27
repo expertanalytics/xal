@@ -6,15 +6,19 @@ weight: 1
 box1:
     text: Data Analysis & Machine Learning
     link: services
+    icon: assessment
 box2:
     text: Visualization
     link: services
+    icon: trending_up
 box3:
     text: Advanced Backend development
     link: services
+    icon: developer_board
 box4: 
     text: High Performance Computing
     link: services
+    icon: memory
 ---
 
 

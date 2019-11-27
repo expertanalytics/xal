@@ -17,6 +17,35 @@
     fill: #5f8dd3;
 }
 
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 60px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Consider split out in separate */
+  color: rgba(44, 90, 160, 0.9);
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
 html {
     height: 100%;
     background-color: var(--background-color);
@@ -159,12 +188,17 @@ img {
     padding-bottom: 3em;
 }
 
+.center-span {
+    vertical-align: middle;
+}
+
 .servicebox {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(80px, auto);
     max-width: 800px;
+    text-align: left;
 }
 
 
