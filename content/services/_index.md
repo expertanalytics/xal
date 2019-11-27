@@ -1,17 +1,6 @@
 ---
 title: "Services"
-date: 2019-11-26
+date: 2019-11-27
 menu: main
 weight: 10
 ---
-
-Data Analysis
-
-Machine Learning
-
-Advanced Backend development
-
-High Performance Computing
-
-
-

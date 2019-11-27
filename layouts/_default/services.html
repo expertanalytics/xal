@@ -1,0 +1,23 @@
+
+{{ define "main" }}
+
+<h1 class="center">{{ .Title }}</h1>
+
+{{ .Content }}
+
+{{ range .Pages }}
+<article>
+
+  {{ with .Resources.GetMatch "photo" -}}
+  <img src="{{ .RelPermalink }}" class="servicespic">
+  {{- end }}
+
+  <div>
+    <h3>{{ .Title }}</h3>
+    {{ .Content }}
+  </div>
+
+</article>
+{{ end }}
+
+{{ end }}
