@@ -3,7 +3,7 @@ title: "Advanced Data Visualization"
 date: 2019-11-27
 resources:
   - name: photo
-    src: dataviz.jpeg
+    src: dataviz.png
 contact: vinzenz@xal.no
 ---
 
