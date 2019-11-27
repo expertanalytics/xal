@@ -1,11 +1,11 @@
 ---
 title: "Data Science and Machine Learning"
-date: 2019-11-27
 resources:
   - name: photo
     src: inversionsMgII.jpg
 contact: upforgrabs@xal.no
 tag: datascience
+weight: 10
 ---
 
 Data Science is the science (and art) of extracting knowledge or insight from

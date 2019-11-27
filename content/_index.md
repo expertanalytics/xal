@@ -13,7 +13,7 @@ box2:
     icon: trending_up
 box3:
     text: Advanced Backend development
-    link: services
+    link: services#backend
     icon: developer_board
 box4: 
     text: High Performance Computing
@@ -24,6 +24,6 @@ box4:
 
 Tordenskiolds gate 6, 0160, Oslo, Norway
 
-Get in touch with us either by e-mail
+Get in touch with us either by e-mail to
 <a href="mailto:post@expertanalytics.no">post@expertanalytics.no</a>
 or by calling us at +47 900 69 915 
