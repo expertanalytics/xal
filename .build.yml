@@ -1,0 +1,23 @@
+image: alpine/latest
+packages:
+  - hugo
+sources:
+  - https://github.com/expertanalytics/xal
+secrets:
+  - a53f2040-0e67-40b1-b77e-d6b56576a5f8
+tasks:
+  - setup: |
+      rm -rf public
+  - build: |
+      cd xal
+      hugo --minify --destination=../public
+      echo expertanalytics.no > ~/public/CNAME
+  - deploy: |
+      test $GITHUB_REF = refs/heads/master || exit 0
+      cd public
+      git init
+      git config user.name builds.sr.ht
+      git config user.email post@expertanalytics.no
+      git add .
+      git commit -m 'Deploy from sr.ht'
+      git push https://github.com/expertanalytics/expertanalytics.github.io master --force
