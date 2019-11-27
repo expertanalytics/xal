@@ -14,9 +14,10 @@ multidimensional definite integral of some interesting function.
 
 Ever since the beggining of the computer era, technologist, programmers and
 scientists have carefully written instructions to the CPU to solve ever more
-challenging problems spending less time and energy. HPC is traditionally the
-craft of spreading compute load across several kernels, cores, and computers,
-while ensuring the hardware is operating close to peak capacity. 
+challenging problems spending less time and energy. High Performance Computing
+(HPC) is traditionally the craft of spreading compute load across several
+kernels, cores, and computers, while ensuring the hardware is operating close
+to peak capacity. 
 
 In Expert Analytics we have both built distributed Beowulf-style clusters, and
 written numerical software that can utilize the combined compute power of such
