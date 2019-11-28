@@ -16,7 +16,7 @@
   {{- end }}
 
     {{ .Content }}
-    <div>Contact Point: {{.Params.Contact}}</div>
+    <div>Contact Point: <a href="mailto:{{.Params.Contact}}">{{.Params.Contact}}</a></div>
     {{ $v1 := where $.Site.Pages "Params.topics" "!=" nil}}
     {{ $v2 := where $.Site.Pages "Params.anchor" "!=" nil}}
 
@@ -32,7 +32,7 @@
             {{ else }}
                 {{ $scratch.Set "first" false }}
             {{ end }}
-            <a href="/about#{{.Params.anchor}}"> {{ .Title }}</a>
+            <a href="/about#{{.Params.anchor}}">{{ .Title }}</a>
         {{ end }}
     {{ end }}
     </div>
