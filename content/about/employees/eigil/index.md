@@ -7,7 +7,7 @@ resources:
 linkedin: https://www.linkedin.com/in/eigilhs
 email: eigil@xal.no
 anchor: eigil
-topics: [backend]
+topics: [backend, hpc]
 ---
 
 Eigil submitted his master's thesis in computer science in 2017 after
