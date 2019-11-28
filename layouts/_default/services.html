@@ -23,7 +23,7 @@
     {{ $filtered := $v1 | intersect $v2 }}
     <div>
         Resources: 
-        {{ range $filtered }}
+        {{ range sort $filtered ".Title" "asc" }}
         {{ if in .Params.topics $topicname }}
             <a href="/about#{{.Params.anchor}}"> {{ .Title }}</a>
         {{ end }}
