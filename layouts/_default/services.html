@@ -16,23 +16,23 @@
   {{- end }}
 
     {{ .Content }}
-    <div>Contact Point: <a href="mailto:{{.Params.Contact}}">{{.Params.Contact}}</a></div>
-    {{ $v1 := where $.Site.Pages "Params.topics" "!=" nil}}
-    {{ $v2 := where $.Site.Pages "Params.anchor" "!=" nil}}
+    <div>Contact Point: <a href="mailto:{{ .Params.Contact }}">{{ .Params.Contact }}</a></div>
+    {{ $v1 := where $.Site.Pages "Params.topics" "!=" nil }}
+    {{ $v2 := where $.Site.Pages "Params.anchor" "!=" nil }}
 
     {{ $filtered := $v1 | intersect $v2 }}
     <div>
-        Resources: 
-        {{ $scratch := newScratch }}
-        {{ $scratch.Set "first" true }}
-        {{ range sort $filtered ".Title" "asc" }}
+    Resources: 
+    {{ $scratch := newScratch }}
+    {{ $scratch.Set "first" true }}
+    {{ range sort $filtered ".Title" "asc" }}
         {{ if in .Params.topics $topicname }}
             {{ if not ($scratch.Get "first") }}
                -
             {{ else }}
                 {{ $scratch.Set "first" false }}
             {{ end }}
-            <a href="/about#{{.Params.anchor}}">{{ .Title }}</a>
+            <a href="/about#{{ .Params.anchor }}">{{ .Title }}</a>
         {{ end }}
     {{ end }}
     </div>
