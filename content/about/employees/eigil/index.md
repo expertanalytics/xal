@@ -6,6 +6,8 @@ resources:
     src: eigil.jpg
 linkedin: https://www.linkedin.com/in/eigilhs
 email: eigil@xal.no
+anchor: eigil
+topics: [backend]
 ---
 
 Eigil submitted his master's thesis in computer science in 2017 after
