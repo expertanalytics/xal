@@ -6,6 +6,8 @@ resources:
     src: eivind.jpeg
 linkedin: https://no.linkedin.com/in/eistaa
 email: eivind@xal.no
+topics: [hpc]
+anchor: eivind
 ---
 
 Eivind has a masters degree in Computational Science from the

@@ -6,6 +6,8 @@ resources:
     src: anis.jpeg
 linkedin: https://www.linkedin.com/in/anis-a-ayati-98550985/
 email: anis@xal.no
+topics: [datascience, visualization]
+anchor: anis
 ---
 
 Anis holds a PhD in Fluid Mechanics from the University of Oslo. Before joining us, he completed a three-year postdoctoral fellowship, which included research stays at PUC-Rio, Brazil and Princeton University, USA. 
