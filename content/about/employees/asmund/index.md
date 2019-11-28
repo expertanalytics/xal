@@ -6,7 +6,9 @@ resources:
     src: asmund.jpeg
 role: Co-founder, managing director
 linkedin: https://no.linkedin.com/in/asmundodegard
+topics: [backend]
 email: asmund@xal.no
+anchor: asmund
 ---
 
 Åsmund is a senior software developer, project leader, and researcher, with more

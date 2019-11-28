@@ -7,6 +7,8 @@ resources:
 role: Co-founder, chairman of board
 linkedin: https://www.linkedin.com/in/skavhaug/
 email: ola@xal.no
+topics: [hpc, visualization]
+anchor: ola
 ---
 
 Ola is an experienced software developer, researcher, and project

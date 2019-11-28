@@ -6,6 +6,8 @@ resources:
       src: robert_face.jpg
 linkedin: https://www.linkedin.com/in/robert-solli/
 email: robert@xal.no
+topics: [datascience, hpc, visualization]
+anchor: robert
 ---
 Robert Solli is a specialist in scientific programming, with expertise in mathematical optimisation,
 statistical analysis and machine learning. He has solved a varied set of problems with this skillset, from 

@@ -5,6 +5,7 @@ resources:
   - name: photo
     src: hpc.png
 contact: ola@xal.no
+tag: hpc
 ---
 
 In compute intensive applications, maximizing the performance of limited

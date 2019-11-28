@@ -10,12 +10,25 @@
 
   <div>
     <h3>{{ .Title }}</h3>
+    {{ $topicname := .Params.tag }}
   {{ with .Resources.GetMatch "photo" -}}
   <img src="{{ .RelPermalink }}" class="servicespic">
   {{- end }}
 
-
     {{ .Content }}
+    <div>Contact Point: {{.Params.Contact}}</div>
+    {{ $v1 := where $.Site.Pages "Params.topics" "!=" nil}}
+    {{ $v2 := where $.Site.Pages "Params.anchor" "!=" nil}}
+
+    {{ $filtered := $v1 | intersect $v2 }}
+    <div>
+        Resources: 
+        {{ range $filtered }}
+        {{ if in .Params.topics $topicname }}
+            <a href="/about#{{.Params.anchor}}"> {{ .Title }}</a>
+        {{ end }}
+    {{ end }}
+    </div>
   </div>
 
 </article>
