@@ -14,11 +14,14 @@ Guttorm is a curious person with an interest and enthusiasm for
 technology and problem solving. His academic background is focused
 around applied mathematics, programming, and physics. He submitted his
 master’s thesis the summer 2017 in the field of Computational Science
-and Engineering at the University of Oslo / Simula. In his work he
-performed numerical simulations of micro-particles inhaled into the
-human respiratory system. This involved writing Python scripts as well
-as modifying and working with open-source libraries, in addition to
-data analysis and supercomputer simulations.
+and Engineering at the University of Oslo / Simula.
+
+<!--more-->
+
+In his work he performed numerical simulations of micro-particles inhaled into
+the human respiratory system. This involved writing Python scripts as well as
+modifying and working with open-source libraries, in addition to data analysis
+and supercomputer simulations.
 
 While working at Expert Analytics, he has continued developing his
 programming skills in Python and Go, and has been diving into topics

@@ -7,5 +7,6 @@ resources:
 contact: asmund@xal.no
 tag: backend
 ---
-
-Making a flunky machine do its job. Every time. No matter what.
+Ingress
+<!--more-->
+Content

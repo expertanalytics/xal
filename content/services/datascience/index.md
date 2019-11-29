@@ -7,7 +7,6 @@ resources:
 contact: upforgrabs@xal.no
 tag: datascience
 ---
-
-Machine Learning is super cool. Artificial Intelligence is approaching
-SINGULARITY, and the human race is screaming with fear. Data Science used to be
-cool, now it's old school.
+Ingress
+<!--more-->
+Content
