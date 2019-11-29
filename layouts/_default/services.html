@@ -32,7 +32,8 @@
             {{ else }}
                 {{ $scratch.Set "first" false }}
             {{ end }}
-            <a href="/about#{{ .Params.anchor }}">{{ .Title }}</a>
+            {{ $link := print (substr .Parent.Permalink 0 (sub (len .Parent.Permalink) 1)) "#" .Params.anchor }}
+            <a href="{{ $link }}">{{ .Title }}</a>
         {{ end }}
     {{ end }}
     </div>
