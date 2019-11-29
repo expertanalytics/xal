@@ -18,8 +18,6 @@ Raw data needs to be inspected, results of computational simulations and algorit
 need insight in the data too.
 Usually large amount of data available these days makes an efficient visualisation to an no-trivial task.
 
-Ou consultants have expertise in standard and advanced data visualisation techniques.
+Our consultants have expertise in standard and advanced data visualisation techniques.
 This includes the pre-treatment as reduction, aggregation and contextualising of data.
-As advanced methods as combining different visualisation techniques for higher understanding of data.
-
-
+And advanced methods as combining different visualisation techniques for higher understanding of data.
