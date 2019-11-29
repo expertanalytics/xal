@@ -3,11 +3,19 @@ title: "Data Science and Machine Learning"
 date: 2019-11-27
 resources:
   - name: photo
-    src: datascience.png
+    src: inversionsMgII.jpg
 contact: upforgrabs@xal.no
 tag: datascience
 ---
 
-Machine Learning is super cool. Artificial Intelligence is approaching
-SINGULARITY, and the human race is screaming with fear. Data Science used to be
-cool, now it's old school.
+Ingress
+
+Data Science is the science (and art) of extracting knowledge or insight from raw data, whether that is applied to research or to industry. Multiple disciplines are involved in the understanding of phenomena with data: mathematics, statistics, physics, computer science, for example.
+
+<!--more-->
+
+In Expert Analytics we apply the scientific method as a pillar to obtain valuable knowledge out of data. That usually includes a combination of designing the experiment, collecting data from the various sources, processing and cleaning the data to be analyzed, making hypothesis, analizing and interpreting the data, drawing conclusions and presenting them in an understandable manner, all with the aim of supporting decision-making in the industry. In today's business world, data analysis plays a fundamental role in helping businesses operate more effectively.
+
+Examples of data science applications useful in an industrial environment are the detection of anomalies in the normal functioning of expensive heavy machinery, where data from sensors are used to predict maintenance operations or schedule stops in production. Or optimisation problems where production (and thus benefits) is maximized, or maintenance operations minimized within safety regulations.
+
+Our data scientists have an academic background in the natural sciences, where analysis of complex datasets and critical thinking is the key to advance knowledge and publish results in scientific journals. Our expertise spans from physics, to mathematics, to statistics and computer science, and we have experience in presenting difficult-to-understand concepts in an understandable language.
