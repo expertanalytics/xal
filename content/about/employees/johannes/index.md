@@ -15,6 +15,8 @@ University uf Munich (TUM). He is a pragmatic problem solver capable of seeing
 the bigger picture and able to rapidly integrate into existing teams and 
 projects.
 
+<!--more-->
+
 He has worked with large scale data processing pipelines for the subsea and
 satellite industry. Currently, he is working with backends for in the financial
 sector. His preferred challenges are related to data structures and algorithms.

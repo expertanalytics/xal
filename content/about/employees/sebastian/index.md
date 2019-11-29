@@ -16,6 +16,8 @@ supercomputers parallelizing the computational efforts. During his
 studies he gained knowledge in algorithms, numerical computing and
 programming in different languages.
 
+<!--more-->
+
 After graduating he worked for Shortcut AS, an app-development
 company, developing iOS apps and working with Splunk for monitoring
 and analyzing machine-generated big data. He has also taken courses
