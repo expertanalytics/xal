@@ -10,7 +10,6 @@ email: ola@xal.no
 topics: [hpc, visualization]
 anchor: ola
 ---
-
 Ola is an experienced software developer, researcher, and project
 leader with a PhD in scientific programming. His main areas of
 technical expertise are mathematical and numerical software
@@ -18,7 +17,7 @@ development, algorithm development, advanced scripting with modern
 scripting languages, parallel programming, software testing and
 deployment, library design, systems programming and scientific
 visualization.
-
+<!--more-->
 Through his work, he has obtained an extensive set of skills that
 allows him to understand and solve challenges in collaboration with
 customers. Today's industrial challenges are generally
