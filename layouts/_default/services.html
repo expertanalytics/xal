@@ -9,11 +9,11 @@
 <article>
 
   <div>
-    <h3>{{ .Title }}</h3>
+    <h3><a name={{ .Params.anchor }}>{{ .Title }}</a></h3>
     {{ $topicname := .Params.tag }}
-  {{ with .Resources.GetMatch "photo" -}}
-  <img src="{{ .RelPermalink }}" class="servicespic">
-  {{- end }}
+    {{ with .Resources.GetMatch "photo" -}}
+      <img src="{{ .RelPermalink }}" class="servicespic">
+    {{- end }}
 
     {{ .Content }}
     <div>Contact Point: <a href="mailto:{{ .Params.Contact }}">{{ .Params.Contact }}</a></div>
@@ -26,19 +26,19 @@
     {{ $scratch := newScratch }}
     {{ $scratch.Set "first" true }}
     {{ range sort $filtered ".Title" "asc" }}
-        {{ if in .Params.topics $topicname }}
-            {{ if not ($scratch.Get "first") }}
-               -
-            {{ else }}
-                {{ $scratch.Set "first" false }}
-            {{ end }}
-            {{ $link := print (substr .Parent.Permalink 0 (sub (len .Parent.Permalink) 1)) "#" .Params.anchor }}
-            <a href="{{ $link }}">{{ .Title }}</a>
+      {{ if in .Params.topics $topicname }}
+        {{ if not ($scratch.Get "first") }}
+          -
+        {{ else }}
+          {{ $scratch.Set "first" false }}
         {{ end }}
+        {{ $link := print (substr .Parent.Permalink 0 (sub (len .Parent.Permalink) 1)) "#" .Params.anchor }}
+        <a href="{{ $link }}">{{ .Title }}</a>
+      {{ end }}
     {{ end }}
     </div>
   </div>
-
+  
 </article>
 {{ end }}
 

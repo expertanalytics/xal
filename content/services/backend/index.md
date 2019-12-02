@@ -1,10 +1,11 @@
 ---
-title: "Advanced Backend Programming"
+title: "Systems Development"
 resources:
   - name: photo
     src: backend.png
 contact: asmund@xal.no
 tag: backend
+anchor: backend
 weight: 100
 ---
 
@@ -13,10 +14,10 @@ the right thing is not always an easy task. Adding to that, requirements that
 constantly evolve, and business owners who often like to use the new and
 shiny things. Developing software systems in a maintainable way with focus on
 correctness then becomme a nice challenge. And we are up to the it - our
-backend developers usually consider the case more interesting, the more complex it gets. 
+software engineers usually consider the case more interesting, the more complex it gets. 
 
-Consultants at Expert Analytics have participated in backend programming
-projects with many of our clients, and often take on a role as tech lead, lead
+Consultants at Expert Analytics have participated in large systems devlopment projects 
+with many of our clients, and often take on roles as tech lead, lead
 developer or technical architect. And we are eager at keeping up with modern
 trends such as variants of agile development, test-driven development, and
 DevSecOps. As such, a narrow view on the programming environment is not
@@ -28,7 +29,7 @@ When it comes to the actual tools that are used in a project, we try to be
 pretty agnostic. The preferences and competences of the client are usually the
 deciding factors when several tools can do the job.
 We are fine with that, and can adapt, as we have through the years come to
-understand that a tool is often just syntax. We contribute with deeper
+understand that a tool often just decide the syntax. We contribute with deeper
 understanding and ability to solve the problems at hand - solutions can
 then be coded up in the selected environment. There are however situations where
 we understand that a tool is very wrong for the problem to be solved, and then
