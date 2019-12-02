@@ -9,9 +9,9 @@ tag: datascience
 ---
 
 Data Science is the science (and art) of extracting knowledge or insight from
-raw data, whether that is applied to research or to industry. Multiple
-disciplines are involved in the understanding of phenomena with data:
-mathematics, statistics, physics, computer science, for example.
+raw data, whether that is applied to research or to industry. Extracting
+meaning from and interpreting data requires tools and methods of multiple
+disciplines such as mathematics, statistics, physics and computer science.
 
 <!--more-->
 
@@ -28,13 +28,14 @@ Examples of data science applications useful in an industrial environment are
 the detection of anomalies in the normal functioning of expensive heavy
 machinery, where data from sensors are used to predict maintenance operations
 or schedule stops in production. Other exampled are optimisation problems where
-production (and thus benefits) is maximized, or maintenance operations
-minimized within safety regulations.
+production (and thus benefits) is maximized, maintenance operations minimized
+within safety regulations, and optimization of work schedules in terms of the
+allocation of manpower relative to demand.
 
 Our data scientists have an academic background in the natural sciences, where
 analysis of complex datasets and critical thinking are keys to advance
 knowledge and publish results in scientific journals. Our expertise spans from
 physics, to mathematics, to statistics and computer science, and we have
-experience in presenting difficult-to-understand concepts in an understandable
+experience in presenting difficult-to-understand concepts in a comprehensible
 language.
 
