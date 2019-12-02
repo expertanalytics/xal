@@ -17,11 +17,13 @@ help. We ended up reimplementing the whole system, using modern
 templated C++, and equipping it with a Python interface. The new
 system, called Shyft, runs several hundred times faster than the old
 prototype, and is currently used both operationally at Statkraft and
-as a research tool by hydrologists in academia.  Shyft is open
-source, and more information can be found here:
+as a research tool by hydrologists in academia. Shyft is open
+source and distributed using the LGPL license.
 
- * https://gitlab.com/shyft-os/shyft
- * http://shyft.readthedocs.io/en/latest/
+<h4>Resources</h4>
+
+ * <a href="https://gitlab.com/shyft-os/shyft">Source code on Gitlab</a>
+ * <a href="http://shyft.readthedocs.io/en/latest/">Documentation</a>
 
 <h4>XAL Developers</h4>
 
