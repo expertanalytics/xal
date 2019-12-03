@@ -1,4 +1,5 @@
 <head>
+  {{ template "_internal/google_analytics.html" . }}
   {{- $style := resources.Get "css/main.css" | resources.Minify -}}
   {{- $logo := resources.Get "xal.svg" | resources.Minify -}}
   {{- $favicon := resources.Get "favicon-32x32.png" -}}
