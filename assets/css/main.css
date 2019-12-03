@@ -232,7 +232,7 @@ img {
     margin-top: 1em;
 }
 
-@media(prefers-color-scheme: dark) {
+@media(display-mode: fullscreen) {
     :root {
         --background-color: #001510;
         --main-color: #5fd37d;
