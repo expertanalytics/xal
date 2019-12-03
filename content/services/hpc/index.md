@@ -1,11 +1,11 @@
 ---
 title: "High Performance Computing"
-date: 2019-11-27
 resources:
   - name: photo
     src: supercomputer.jpg
 contact: ola@xal.no
 tag: hpc
+weight: 60
 ---
 
 In compute intensive applications, maximizing the performance of limited

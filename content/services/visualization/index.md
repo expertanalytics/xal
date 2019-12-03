@@ -1,11 +1,11 @@
 ---
 title: "Advanced Data Visualization"
-date: 2019-11-27
 resources:
   - name: photo
     src: visualization.png
 contact: vinzenz@xal.no
 tag: visualization
+weight: 40
 ---
 
 Concise and informative visualisation is the key for comprehension and
