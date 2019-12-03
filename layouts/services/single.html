@@ -17,19 +17,19 @@
     {{ $v2 := where $.Site.Pages "Params.anchor" "!=" nil }}
 
     {{ $filtered := $v1 | intersect $v2 }}
-    <div>
-        <h2>Resources: </h2>
+        <h2>Consultants: </h2>
     {{ range sort $filtered ".Title" "asc" }}
         {{ if in .Params.topics $topicname }}
-        <h3>{{ .Title }}</h3>
-        <div>{{ .Summary }}</div>
-            {{ if .Truncated }}
-            <div>
-                <a href="{{ .RelPermalink }}">Read More…</a>
+            <article class="bio">
+                {{ with .Resources.GetMatch "photo" -}}
+                    <img src="{{ .RelPermalink }}" class="profilepic">
+                {{- end }}
+
+            <div class="card">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{ .Summary }}
             </div>
-            {{ end }}
+            </article>
         {{ end }}
     {{ end }}
-    </div>
-
 {{ end }}

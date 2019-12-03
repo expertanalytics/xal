@@ -9,40 +9,13 @@
 <article>
 
   <div>
-    <h3>{{ .Title }}</h3>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
     {{ $topicname := .Params.tag }}
   {{ with .Resources.GetMatch "photo" -}}
   <img src="{{ .RelPermalink }}" class="servicespic">
   {{- end }}
 
     {{ .Summary }}
-    {{ if .Truncated }}
-    <div>
-        <a href="{{ .RelPermalink }}">Read More…</a>
-    </div>
-      {{ end }}
-
-    <div>Contact Point: <a href="mailto:{{ .Params.Contact }}">{{ .Params.Contact }}</a></div>
-    {{ $v1 := where $.Site.Pages "Params.topics" "!=" nil }}
-    {{ $v2 := where $.Site.Pages "Params.anchor" "!=" nil }}
-
-    {{ $filtered := $v1 | intersect $v2 }}
-    <div>
-    Resources: 
-    {{ $scratch := newScratch }}
-    {{ $scratch.Set "first" true }}
-    {{ range sort $filtered ".Title" "asc" }}
-        {{ if in .Params.topics $topicname }}
-            {{ if not ($scratch.Get "first") }}
-               -
-            {{ else }}
-                {{ $scratch.Set "first" false }}
-            {{ end }}
-            {{ $link := print (substr .Parent.Permalink 0 (sub (len .Parent.Permalink) 1)) "#" .Params.anchor }}
-            <a href="{{ $link }}">{{ .Title }}</a>
-        {{ end }}
-    {{ end }}
-    </div>
   </div>
 
 </article>
