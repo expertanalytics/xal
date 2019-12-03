@@ -2,7 +2,7 @@
 title: "High Performance Computing"
 resources:
   - name: photo
-    src: hpc.png
+    src: supercomputer.jpg
 contact: ola@xal.no
 tag: hpc
 weight: 60
@@ -22,7 +22,7 @@ ensuring that the hardware is operating close to peak capacity.
 
 We have expertise in building distributed Beowulf-style clusters, and writing
 numerical software that utilizes the combined compute power of supercomputers 
-for non-trivial parallell computing tasks, such as solving large and sparse
+for non-trivial parallel computing tasks, such as solving large and sparse
 linear systems of equations across machines. Typically, MPI (Message Passing
 Interface) is used to divide computations across machines, whereas OpenMP or
 multithreading is used to facilitate shared memory computations across cores. 
