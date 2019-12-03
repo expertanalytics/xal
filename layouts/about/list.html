@@ -1,0 +1,24 @@
+
+{{ define "main" }}
+
+<h1 class="center">{{ .Title }}</h1>
+
+{{ .Content }}
+
+<h2>Our consultants</h2>
+{{ range .Pages }}
+<article class="bio">
+
+  {{ with .Resources.GetMatch "photo" -}}
+  <img src="{{ .RelPermalink }}" class="profilepic">
+  {{- end }}
+
+  <div class="card">
+      <h3><a name={{ .Params.anchor }}><a href="{{ .RelPermalink }}">{{ .Title }}</a></a></h3>
+    {{ .Summary }}
+  </div>
+
+</article>
+{{ end }}
+
+{{ end }}

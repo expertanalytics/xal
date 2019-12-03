@@ -2,6 +2,12 @@
 
 <h1 class="center">{{ .Title }}</h1>
 
+{{ with .Resources.GetMatch "photo" -}}
+
+<img src="{{ .RelPermalink }}" class="servicespic">
+{{- end }}
+
+
 {{ .Content }}
 
 <div>Contact Point: <a href="mailto:{{ .Params.Contact }}">{{ .Params.Contact }}</a></div>
