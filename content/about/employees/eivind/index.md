@@ -17,6 +17,8 @@ algebra computations using GPUs. From the studies leading to his
 degree he has gained broad knowledge about algorithms, numerical
 mathematics, and programming in several languages.
 
+<!--more-->
+
 Prior work experience includes teaching programming: mostly one-to-one
 teaching in a lab setting, but also as lecturing and live coding in
 plenary settings. He has also worked with testing---both manual and

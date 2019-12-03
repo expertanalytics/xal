@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<h1 class="center">{{ .Title }}</h1>
+
+{{ with .Resources.GetMatch "photo" -}}
+<img src="{{ .RelPermalink }}" class="profilepic">
+{{- end }}
+
+{{ .Content }}
+
+<ul>
+  {{ with .Params.Role -}}
+  <li>{{ . }}
+  {{- end}}
+  {{ with .Params.Linkedin -}}
+  <li><a href="{{ . }}">LinkedIn</a>
+  {{- end }}
+  {{ with .Params.Email -}}
+  <li><a href="mailto:{{ . }}">{{ . }}</a>
+  {{- end }}
+</ul>
+
+{{ end }}
