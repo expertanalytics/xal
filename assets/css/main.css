@@ -216,6 +216,10 @@ img {
         grid-template-rows: auto auto;
         grid-template-areas: "photo" "bio";
     }
+
+    .hide-if-mobile {
+      display: none;
+    }
 }
 
 .bio h3, .bio img {
