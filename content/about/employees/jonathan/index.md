@@ -15,6 +15,8 @@ information technology and services industry, with broad experience ranging
 from designing, building, testing and maintaining large scale programming
 projects.
 
+<!--more-->
+
 He is a specialist within machine learning, stochastic modelling, statistics,
 and numerical programming. He has an eye for seeing possible solutions to the
 "hard" problems, and being able to quickly convert those into functioning

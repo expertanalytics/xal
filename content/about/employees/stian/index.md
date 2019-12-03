@@ -17,6 +17,8 @@ experience following that, first as a consultant for Knowit and then as a
 software engineer for Cognite, he spent a lot of time in the JVM world with
 Java and Scala.
 
+<!--more-->
+
 Stian believes in letting the compiler and linting tools do as much work as
 possible because then he as the developer has fewer options to shoot himself in
 the foot. Following that, he is an eager supporter of strict, functional

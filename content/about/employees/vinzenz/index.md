@@ -16,6 +16,8 @@ of the blood flow in the human arterial system. This interdisciplinary
 work included working within engineering, medicine, biology, software
 development and statistics.
 
+<!--more-->
+
 His educational background is in mechanical engineering, with focus on
 numerical methods and bio-materials. Beside his studies, he has worked
 in several different fields such as virtual commissioning, petroleum
