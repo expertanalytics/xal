@@ -3,7 +3,7 @@ title: "High Performance Computing"
 date: 2019-11-27
 resources:
   - name: photo
-    src: hpc.png
+    src: supercomputer.jpg
 contact: ola@xal.no
 tag: hpc
 ---
