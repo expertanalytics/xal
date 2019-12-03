@@ -38,4 +38,3 @@ knowledge and publish results in scientific journals. Our expertise spans from
 physics, to mathematics, to statistics and computer science, and we have
 experience in presenting difficult-to-understand concepts in a comprehensible
 language.
-

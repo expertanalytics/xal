@@ -18,6 +18,8 @@ supervision experience, and lots of practical software engineering
 experience allows him to tackle most development problems as a team
 player or independently if need be.
 
+<!--more-->
+
 He has worked on a wide range of software types including: web tools
 for scientific visualization using WebGL and JavaScript; embedded
 audio DSP programming in C; music sequencer software in C++; tools for
