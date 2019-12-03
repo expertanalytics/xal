@@ -4,6 +4,7 @@
   {{- $logo := resources.Get "xal.svg" | resources.Minify -}}
   {{- $favicon := resources.Get "favicon-32x32.png" -}}
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}">
   <link rel="icon" href="{{ $logo.RelPermalink }}" type="image/svg+xml">
   <link rel="icon" href="{{ $favicon.RelPermalink }}" sizes="32x32">

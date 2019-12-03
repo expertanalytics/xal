@@ -1,0 +1,24 @@
+
+{{ define "main" }}
+
+<h1 class="center">{{ .Title }}</h1>
+
+{{ .Content }}
+
+{{ range .Pages }}
+<article>
+
+  <div>
+    <h3><a name={{ .Params.anchor }}><a href="{{ .RelPermalink }}">{{ .Title }}</a></a></h3>
+    {{ $topicname := .Params.tag }}
+    {{ with .Resources.GetMatch "photo" -}}
+      <img src="{{ .RelPermalink }}" class="servicespic">
+    {{- end }}
+
+    {{ .Summary }}
+  </div>
+  
+</article>
+{{ end }}
+
+{{ end }}

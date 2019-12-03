@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<h1 class="center">{{ .Title }}</h1>
+
+{{ with .Resources.GetMatch "photo" -}}
+
+<img src="{{ .RelPermalink }}" class="servicespic">
+{{- end }}
+
+
+{{ .Content }}
+
+<div>Contact Point: <a href="mailto:{{ .Params.Contact }}">{{ .Params.Contact }}</a></div>
+
+{{ $topicname := .Params.tag }}
+    {{ $v1 := where $.Site.Pages "Params.topics" "!=" nil }}
+    {{ $v2 := where $.Site.Pages "Params.anchor" "!=" nil }}
+
+    {{ $filtered := $v1 | intersect $v2 }}
+        <h2>Consultants: </h2>
+    {{ range sort $filtered ".Title" "asc" }}
+        {{ if in .Params.topics $topicname }}
+            <article class="bio">
+                {{ with .Resources.GetMatch "photo" -}}
+                    <img src="{{ .RelPermalink }}" class="profilepic">
+                {{- end }}
+
+            <div class="card">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{ .Summary }}
+            </div>
+            </article>
+        {{ end }}
+    {{ end }}
+{{ end }}

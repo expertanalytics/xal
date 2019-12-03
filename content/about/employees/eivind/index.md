@@ -6,6 +6,8 @@ resources:
     src: eivind.jpeg
 linkedin: https://no.linkedin.com/in/eistaa
 email: eivind@xal.no
+topics: [hpc]
+anchor: eivind
 ---
 
 Eivind has a masters degree in Computational Science from the
@@ -14,6 +16,8 @@ particle system modeling linear elasticity, and accelerating linear
 algebra computations using GPUs. From the studies leading to his
 degree he has gained broad knowledge about algorithms, numerical
 mathematics, and programming in several languages.
+
+<!--more-->
 
 Prior work experience includes teaching programming: mostly one-to-one
 teaching in a lab setting, but also as lecturing and live coding in

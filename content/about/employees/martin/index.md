@@ -6,6 +6,8 @@ resources:
     src: martin.jpeg
 linkedin: https://www.linkedin.com/in/martinal/
 email: martin@xal.no
+anchor: martin
+topics: [backend, hpc]
 ---
 
 Martin is an expert scientific programmer with a PhD in computational
@@ -15,6 +17,8 @@ background in mathematics and computer science, research and
 supervision experience, and lots of practical software engineering
 experience allows him to tackle most development problems as a team
 player or independently if need be.
+
+<!--more-->
 
 He has worked on a wide range of software types including: web tools
 for scientific visualization using WebGL and JavaScript; embedded

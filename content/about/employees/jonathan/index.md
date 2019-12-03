@@ -6,12 +6,16 @@ resources:
     src: jonathan.jpeg
 linkedin: https://www.linkedin.com/in/jonathan-feinberg-251b6892/
 email: jonathan@xal.no
+topics: [datascience]
+anchor: jonathan
 ---
 
 Jonathan is a seasoned consultant with a demonstrated history of working in the
 information technology and services industry, with broad experience ranging
 from designing, building, testing and maintaining large scale programming
 projects.
+
+<!--more-->
 
 He is a specialist within machine learning, stochastic modelling, statistics,
 and numerical programming. He has an eye for seeing possible solutions to the

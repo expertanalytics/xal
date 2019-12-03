@@ -6,12 +6,16 @@ resources:
     src: johannes.jpg
 linkedin: https://www.linkedin.com/in/johannes-weissmann-83300152/
 email: johannes@xal.no
+topics: [backend, hpc]
+anchor: johannes
 ---
 
 Johannes holds a master's degree in computational physics from the Technical
 University uf Munich (TUM). He is a pragmatic problem solver capable of seeing
 the bigger picture and able to rapidly integrate into existing teams and 
 projects.
+
+<!--more-->
 
 He has worked with large scale data processing pipelines for the subsea and
 satellite industry. Currently, he is working with backends for in the financial

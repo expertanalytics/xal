@@ -6,6 +6,8 @@ resources:
     src: stian.jpg
 linkedin: https://www.linkedin.com/in/stianlagstad/
 email: stian@xal.no
+anchor: stian
+topics: [visualization, backend]
 ---
 
 Stian finished his master's thesis at The University of Oslo in the spring of
@@ -14,6 +16,8 @@ languages, such as R, Python, Scheme, Java, and Javascript. In his work
 experience following that, first as a consultant for Knowit and then as a
 software engineer for Cognite, he spent a lot of time in the JVM world with
 Java and Scala.
+
+<!--more-->
 
 Stian believes in letting the compiler and linting tools do as much work as
 possible because then he as the developer has fewer options to shoot himself in

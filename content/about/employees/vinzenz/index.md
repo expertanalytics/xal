@@ -6,6 +6,8 @@ resources:
     src: vinzenz.png
 linkedin: https://www.linkedin.com/in/vinzenz-gregor-eck-11665a116/
 email: vinzenz@xal.no
+topics: [hpc, visualization]
+anchor: vinzenz
 ---
 
 Vinzenz is a curious, pragmatic, creative problem solver. He holds a
@@ -13,6 +15,8 @@ PhD in biomechanical engineering, focusing on stochastic simulations
 of the blood flow in the human arterial system. This interdisciplinary
 work included working within engineering, medicine, biology, software
 development and statistics.
+
+<!--more-->
 
 His educational background is in mechanical engineering, with focus on
 numerical methods and bio-materials. Beside his studies, he has worked
