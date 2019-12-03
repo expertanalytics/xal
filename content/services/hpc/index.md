@@ -12,7 +12,9 @@ In compute intensive applications, maximizing the performance of limited
 hardware resources will always be a fundamental challenge. Be it numerical
 solution of partial differential equations or Monte Carlo integration to
 compute the multidimensional definite integral of some interesting function. 
+
 <!--more-->
+
 Since the beginning of the computer era, technologists, programmers and
 scientists have composed careful instructions to the CPU, aiming to solve ever
 more challenging problems while spending less time and energy during program

@@ -5,11 +5,11 @@ menu: main
 weight: 1
 box1:
     text: Data Analysis & Machine Learning
-    link: services
+    link: services#datascience
     icon: assessment
 box2:
     text: Visualization
-    link: services
+    link: services#visualization
     icon: trending_up
 box3:
     text: Systems Development
@@ -17,7 +17,7 @@ box3:
     icon: developer_board
 box4: 
     text: High Performance Computing
-    link: services
+    link: services#hpc
     icon: memory
 ---
 
