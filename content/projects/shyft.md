@@ -20,14 +20,15 @@ prototype, and is currently used both operationally at Statkraft and
 as a research tool by hydrologists in academia. Shyft is open
 source and distributed using the LGPL license.
 
-<h4>Resources</h4>
+#### Resources
 
- * <a href="https://gitlab.com/shyft-os/shyft">Source code on Gitlab</a>
- * <a href="http://shyft.readthedocs.io/en/latest/">Documentation</a>
+ * [Source code on Gitlab](https://gitlab.com/shyft-os/shyft)
+ * [Documentation](http://shyft.readthedocs.io/en/latest/)
 
-<h4>XAL Developers</h4>
+#### XAL Developers
 
- * <a href="{{<ref ola>}}">Ola Skavhaug</a>
- * <a href="{{<ref eivind>}}">Eivind Storm Aarnæs</a>
- * <a href="{{<ref bernardo>}}">Bernardo de Oliveira</a>
+ * [Ola Skavhaug]({{<ref ola>}})
+ * [Eivind Storm Aarnæs]({{<ref eivind>}})
+ * [Bernardo de Oliveira]({{<ref bernardo>}})
+ * [Trygve Bærland]({{<ref trygve>}})
  * Magne Nordås
