@@ -6,18 +6,16 @@
     <path d="m 29 2 11 22 -9.5 19 -11 -22 z m 23.5 47 15 30 -9.5 19 -15 -30 z" class="xal-color-3" />
   </svg>
   <h1>Expert Analytics</h1>
-    <span>{{ .Content }}</span>
+  <span>{{ .Content }}</span>
 </div>
 
 <div class="center">
-    <div class="servicebox">
-        {{with .Params.box1}}<a href="{{ .link }}"><div class="box"><span class="center-span"><i class="material-icons">{{ .icon }}</i></span><span class="center-span">{{ .text }}</span></div></a>{{end}}
-        {{with .Params.box2}}<a href="{{ .link }}"><div class="box"><span class="center-span"><i class="material-icons">{{ .icon }}</i></span><span class="center-span">{{ .text }}</span></div></a>{{end}}
-        {{with .Params.box3}}<a href="{{ .link }}"><div class="box"><span class="center-span"><i class="material-icons">{{ .icon }}</i></span><span class="center-span">{{ .text }}</span></div></a>{{end}}
-        {{with .Params.box4}}<a href="{{ .link }}"><div class="box"><span class="center-span"><i class="material-icons">{{ .icon }}</i></span><span class="center-span">{{ .text }}</span></div></a>{{end}}
-    </div>
-</div>
-
+  <div class="servicebox">
+    {{with .Params.box1}}<a href="{{ .link }}"><div class="box">{{ readFile .icon | safeHTML }}<span class="center-span">{{ .text }}</span></div></a>{{end}}
+    {{with .Params.box2}}<a href="{{ .link }}"><div class="box">{{ readFile .icon | safeHTML }}<span class="center-span">{{ .text }}</span></div></a>{{end}}
+    {{with .Params.box3}}<a href="{{ .link }}"><div class="box">{{ readFile .icon | safeHTML }}<span class="center-span">{{ .text }}</span></div></a>{{end}}
+    {{with .Params.box4}}<a href="{{ .link }}"><div class="box">{{ readFile .icon | safeHTML }}<span class="center-span">{{ .text }}</span></div></a>{{end}}
+  </div>
 </div>
 
 {{ end }}
