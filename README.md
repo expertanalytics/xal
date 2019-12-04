@@ -37,7 +37,13 @@ Check the output with
 ```sh
 $ hugo server -D
 ```
-which serves the page at `localhost:1313` with hot reloading and drafts enabled (the `-D`).
+which serves the page at `localhost:1313` with hot reloading and drafts enabled
+(the `-D`). Note that this will only allow you to connect to the server though
+localhost. If you need to access from e.g. a mobile device, find your IP
+address and run
+```sh
+$ hugo server hugo --bind=your.ip.addess.goes.here -D
+```
 
 ## Publishing
 
