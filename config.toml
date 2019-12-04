@@ -11,3 +11,6 @@ copyright = "© Expert Analytics AS"
   [privacy.googleAnalytics]
     anonymizeIP = true
     respectDoNotTrack = true
+
+[taxonomies]
+  services = "services"

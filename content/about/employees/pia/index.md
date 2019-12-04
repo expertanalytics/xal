@@ -6,8 +6,10 @@ resources:
     src: pia.png
 linkedin: https://www.linkedin.com/in/pia-zacharias-7b648713b/
 email: pia@xal.no
-topics: [datascience, hpc]
 anchor: pia
+services:
+  - datascience
+  - hpc
 ---
 
 Pia is a physicist with more than ten years of experience in scientific
