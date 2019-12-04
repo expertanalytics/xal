@@ -11,10 +11,9 @@
 
 <div class="center">
   <div class="servicebox">
-    {{with .Params.box1}}<a href="{{ .link }}"><div class="box">{{ readFile .icon | safeHTML }}<span class="center-span">{{ .text }}</span></div></a>{{end}}
-    {{with .Params.box2}}<a href="{{ .link }}"><div class="box">{{ readFile .icon | safeHTML }}<span class="center-span">{{ .text }}</span></div></a>{{end}}
-    {{with .Params.box3}}<a href="{{ .link }}"><div class="box">{{ readFile .icon | safeHTML }}<span class="center-span">{{ .text }}</span></div></a>{{end}}
-    {{with .Params.box4}}<a href="{{ .link }}"><div class="box">{{ readFile .icon | safeHTML }}<span class="center-span">{{ .text }}</span></div></a>{{end}}
+    {{ range .Params.boxes }}
+    <a href="{{ .link }}"><div class="box">{{ readFile .icon | safeHTML }}<span class="center-span">{{ .text }}</span></div></a>
+    {{ end }}
   </div>
 </div>
 
