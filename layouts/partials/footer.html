@@ -1,4 +1,11 @@
 
 <footer>
-    <p>+47 900 69 915 | post@expertanalytics.no | {{ .Site.Params.copyright }}</p>
+    <p class="hide-if-mobile">+47 900 69 915 | post@expertanalytics.no | {{ .Site.Params.copyright }}</p>
+    <div class="mobile-footer">
+      <span>+47 900 69 915</span>
+      <a href="mailto:post@expertanalytics.no">post@expertanalytics.no</a>
+      <span>
+        {{ .Site.Params.copyright }}
+      </span>
+    </div>
 </footer>

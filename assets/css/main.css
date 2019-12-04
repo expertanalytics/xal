@@ -73,6 +73,11 @@ body {
     }
 }
 
+.mobile-footer {
+    display: none;
+    text-align: center;
+}
+
 p {
     margin-top: .3em;
     margin-bottom: .5em;
@@ -137,15 +142,17 @@ header {
     grid-row: 1;
 }
 
-footer {
-    grid-row: 3;
-    color: var(--light-text-color);
-}
 
 header, footer {
     text-align: center;
     grid-column: 1 / 4;
     padding: 1.5em;
+}
+
+footer {
+    grid-row: 3;
+    color: var(--light-text-color);
+    padding: 0;
 }
 
 details > summary {
@@ -223,6 +230,11 @@ img {
     .hide-if-mobile {
       display: none;
     }
+
+    .mobile-footer {
+        display: grid;
+        padding: 1.5em 0 1.5em 0;
+    }
 }
 
 .bio h3, .bio img {
@@ -298,5 +310,5 @@ img {
             text-shadow: 0 0 2px var(--strong-text);
         }
     }
-
 }
+
