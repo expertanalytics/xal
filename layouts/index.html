@@ -11,10 +11,10 @@
 
 <div class="center">
     <div class="servicebox">
-        <div class="box">{{with .Params.box1}}<span class="center-span"><i class="material-icons">{{ .icon }}</i></span><span class="center-span"><a href="{{ .link }}">{{ .text }}</a></span>{{end}}</div>
-        <div class="box">{{with .Params.box2}}<span class="center-span"><i class="material-icons">{{ .icon }}</i></span><span class="center-span"><a href="{{ .link }}">{{ .text }}</a></span>{{end}}</div>
-        <div class="box">{{with .Params.box3}}<span class="center-span"><i class="material-icons">{{ .icon }}</i></span><span class="center-span"><a href="{{ .link }}">{{ .text }}</a></span>{{end}}</div>
-        <div class="box">{{with .Params.box4}}<span class="center-span"><i class="material-icons">{{ .icon }}</i></span><span class="center-span"><a href="{{ .link }}">{{ .text }}</a></span>{{end}}</div>
+      <div class="box">{{with .Params.box1}}<span class="center-span"><a href="{{ .link }}"><i class="material-icons">{{ .icon }}</i></a></span><span class="center-span"><a href="{{ .link }}">{{ .text }}</a></span>{{end}}</div>
+        <div class="box">{{with .Params.box2}}<span class="center-span"><a href="{{ .link }}"><i class="material-icons">{{ .icon }}</i><a></span><span class="center-span"><a href="{{ .link }}">{{ .text }}</a></span>{{end}}</div>
+        <div class="box">{{with .Params.box3}}<span class="center-span"><a href="{{ .link }}"><i class="material-icons">{{ .icon }}</i><a></span><span class="center-span"><a href="{{ .link }}">{{ .text }}</a></span>{{end}}</div>
+        <div class="box">{{with .Params.box4}}<span class="center-span"><a href="{{ .link }}"><i class="material-icons">{{ .icon }}</i><a></span><span class="center-span"><a href="{{ .link }}">{{ .text }}</a></span>{{end}}</div>
     </div>
 </div>
 
