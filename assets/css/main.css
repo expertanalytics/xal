@@ -152,7 +152,6 @@ header, footer {
 footer {
     grid-row: 3;
     color: var(--light-text-color);
-    padding: 0;
 }
 
 details > summary {
@@ -233,7 +232,6 @@ img {
 
     .mobile-footer {
         display: grid;
-        padding: 1.5em 0 1.5em 0;
     }
 }
 
