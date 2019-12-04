@@ -6,19 +6,19 @@ weight: 1
 box1:
     text: Data Analysis & Machine Learning
     link: services#datascience
-    icon: assessment
+    icon: assets/assessment.svg
 box2:
     text: Visualization
     link: services#visualization
-    icon: trending_up
+    icon: assets/trending_up.svg
 box3:
     text: Systems Development
     link: services#backend
-    icon: developer_board
+    icon: assets/developer_board.svg
 box4: 
     text: High Performance Computing
     link: services#hpc
-    icon: memory
+    icon: assets/memory.svg
 ---
 
 Tordenskiolds gate 6, 0160, Oslo, Norway
