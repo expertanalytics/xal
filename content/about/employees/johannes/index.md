@@ -6,8 +6,10 @@ resources:
     src: johannes.jpg
 linkedin: https://www.linkedin.com/in/johannes-weissmann-83300152/
 email: johannes@xal.no
-topics: [backend, hpc]
 anchor: johannes
+services:
+  - backend
+  - hpc
 ---
 
 Johannes holds a master's degree in computational physics from the Technical

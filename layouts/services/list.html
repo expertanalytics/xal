@@ -8,8 +8,8 @@
 {{ range .Pages }}
 <article>
 
-  <div>
-    <h3><a name={{ .Params.tag }}><a href="{{ .RelPermalink }}">{{ .Title }}</a></a></h3>
+  <div id={{ .Params.tag }}>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
     {{ $topicname := .Params.tag }}
     {{ with .Resources.GetMatch "photo" -}}
       <img src="{{ .RelPermalink }}" class="servicespic">

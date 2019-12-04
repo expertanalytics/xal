@@ -6,8 +6,10 @@ resources:
     src: rh.jpg
 linkedin: https://www.linkedin.com/in/robert-hagala-39484662
 email: rh@xal.no
-topics: [datascience, visualization]
 anchor: rh
+services:
+  - datascience
+  - visualization
 ---
 
 Robert is finishing a PhD in astrophysics at the University of Oslo, with
