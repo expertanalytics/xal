@@ -18,6 +18,9 @@
   {{ with .Params.Email -}}
   <li><a href="mailto:{{ . }}">{{ . }}</a>
   {{- end }}
+  {{ with .Params.Phone -}}
+  <li>Phone: {{ . }}
+  {{- end }}
 </ul>
 
 {{ end }}

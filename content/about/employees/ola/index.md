@@ -7,6 +7,7 @@ resources:
 role: Founder, chairman of the board
 linkedin: https://www.linkedin.com/in/skavhaug/
 email: ola@xal.no
+phone: "+47 926 12 490"
 topics: [hpc, visualization]
 anchor: ola
 summary: "Founder of Expert Analytics. Loves mixing high and low level languages 
