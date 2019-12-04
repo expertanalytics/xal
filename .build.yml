@@ -1,23 +1,31 @@
 image: alpine/latest
 packages:
   - hugo
+  - rsync
 sources:
   - https://github.com/expertanalytics/xal
+environment:
+  prod_repo: https://github.com/expertanalytics/expertanalytics.github.io
 secrets:
   - a53f2040-0e67-40b1-b77e-d6b56576a5f8
+  - db8a8c85-48b3-4545-95f5-08109ebb57b1
 tasks:
   - setup: |
       rm -rf public
   - build: |
       cd xal
       hugo --minify --destination=../public
-      echo expertanalytics.no > ~/public/CNAME
   - deploy: |
-      test $GITHUB_REF = refs/heads/master || exit 0
-      cd public
-      git init
-      git config user.name builds.sr.ht
-      git config user.email post@expertanalytics.no
-      git add .
-      git commit -m 'Deploy from sr.ht'
-      git push https://github.com/expertanalytics/expertanalytics.github.io master --force
+      if [ $GITHUB_REF = refs/heads/master ]; then
+          cd public
+          echo expertanalytics.no > CNAME
+          git init
+          git config user.name builds.sr.ht
+          git config user.email post@expertanalytics.no
+          git add .
+          git commit -m 'Deploy from sr.ht'
+          git push $prod_repo master --force
+      else
+          rsync -e 'ssh -o StrictHostKeyChecking=no' --delete -rv \
+              public/ deploy@dev.xal.no:www/pr/${GITHUB_REF##*/}
+      fi
