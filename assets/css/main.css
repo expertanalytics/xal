@@ -5,6 +5,9 @@
     --link-color: #2c5aa0;
     --background-color: #f5f6f6;
     --border-color: #bcd;
+    --xal-color-1: #2c5aa0;
+    --xal-color-2: #214478;
+    --xal-color-3: #5f8dd3;
 }
 
 .xal-color-1 {
@@ -68,6 +71,11 @@ body {
         grid-template-columns: 2em 1fr 2em;
         font-size: 14px;
     }
+}
+
+.mobile-footer {
+    display: none;
+    text-align: center;
 }
 
 p {
@@ -134,15 +142,16 @@ header {
     grid-row: 1;
 }
 
-footer {
-    grid-row: 3;
-    color: var(--light-text-color);
-}
 
 header, footer {
     text-align: center;
     grid-column: 1 / 4;
     padding: 1.5em;
+}
+
+footer {
+    grid-row: 3;
+    color: var(--light-text-color);
 }
 
 details > summary {
@@ -220,6 +229,10 @@ img {
     .hide-if-mobile {
       display: none;
     }
+
+    .mobile-footer {
+        display: grid;
+    }
 }
 
 .bio h3, .bio img {
@@ -295,5 +308,5 @@ img {
             text-shadow: 0 0 2px var(--strong-text);
         }
     }
-
 }
+
