@@ -9,14 +9,14 @@ linkedin: https://www.linkedin.com/in/skavhaug/
 email: ola@xal.no
 topics: [hpc, visualization]
 anchor: ola
+summary: "Founder of Expert Analytics. Loves mixing high and low level languages 
+          to join flexibility and high perfomance computing."
 ---
 
 Ola has a PhD in scientific computing, and is an expert software developer
 with years of experience in industry and academia. He is particularly
 interested in mathematical and numerical software development, algorithm
 development, high performance computing and scientific visualization.
-
-<!--more-->
 
 Through his work, Ola has obtained an extensive set of skills that
 allows him to understand and solve challenges in collaboration with
