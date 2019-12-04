@@ -130,7 +130,7 @@ box {
 }
 
 .box > span {
-  display: block;
+    display: block;
 }
 
 main img {

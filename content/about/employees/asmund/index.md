@@ -4,17 +4,20 @@ date: 2013-08-19
 resources:
   - name: photo
     src: asmund.jpeg
-role: Co-founder, managing director
+role: Founder, managing director
 linkedin: https://no.linkedin.com/in/asmundodegard
-topics: [backend]
+topics: [backend, hpc]
 email: asmund@xal.no
 anchor: asmund
+summary: "Founder of Expert Analytics. Enjoys developing small and large
+          systems in a number of languages and environments. Makes sure that
+          everyting is working well, both with clients and internally"
 ---
 Åsmund is a senior software developer, project leader, and researcher, with more
 than 20 years of professional experience. After spending 13 years at  Simula
 Research Laboratory,  Norway’s top-ranked ICT research institution, he founded
 Expert Analytics in 2013, together with Ola Skavhaug.
-<!--more-->
+
 Through various positions in his career, he has obtained a broad set of
 technical and management skills, which he now put to good use as both Managing
 Director and a Senior Consultant in Expert Analytics. His main areas of
