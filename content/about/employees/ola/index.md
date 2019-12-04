@@ -4,7 +4,7 @@ date: 2013-08-20
 resources:
   - name: photo
     src: ola.jpeg
-role: Founder, chairman of board
+role: Founder, chairman of the board
 linkedin: https://www.linkedin.com/in/skavhaug/
 email: ola@xal.no
 topics: [hpc, visualization]
