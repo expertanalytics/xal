@@ -10,6 +10,7 @@ services:
   - backend
   - hpc
 email: asmund@xal.no
+phone: "+47 900 69 915"
 anchor: asmund
 summary: |
   Founder of Expert Analytics. Enjoys developing small and large

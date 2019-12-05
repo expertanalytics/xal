@@ -3,7 +3,7 @@ title: "Data Science and Machine Learning"
 resources:
   - name: photo
     src: inversionsMgII.jpg
-contact: vinzenz@xal.no
+contact: vinzenz
 tag: datascience
 weight: 10
 ---
