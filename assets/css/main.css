@@ -98,13 +98,8 @@ main {
     align-items: beginning;
 }
 
-box {
-    grid-column: 1;
-}
-
 .box {
     text-align: center;
-    padding-top: 3em;
 }
 
 .box > span {
@@ -190,9 +185,9 @@ img {
 
 .servicebox {
     display: grid;
-    grid-template-columns: repeat(4, 10em);
-    grid-gap: 30px;
-    grid-auto-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(80px, auto);
     max-width: 800px;
     text-align: left;
 }
