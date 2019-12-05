@@ -8,7 +8,7 @@ linkedin: https://www.linkedin.com/in/eigilhs
 email: eigil@xal.no
 anchor: eigil
 services:
-  - systems
+  - backend
   - hpc
 projects:
   - mobile

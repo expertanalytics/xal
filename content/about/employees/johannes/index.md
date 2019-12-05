@@ -8,7 +8,7 @@ linkedin: https://www.linkedin.com/in/johannes-weissmann-83300152/
 email: johannes@xal.no
 anchor: johannes
 services:
-  - systems
+  - backend
   - hpc
 projects:
   - mobile
@@ -16,7 +16,7 @@ projects:
 
 Johannes holds a master's degree in computational physics from the Technical
 University uf Munich (TUM). He is a pragmatic problem solver capable of seeing
-the bigger picture and able to rapidly integrate into existing teams and
+the bigger picture and able to rapidly integrate into existing teams and 
 projects.
 
 <!--more-->
