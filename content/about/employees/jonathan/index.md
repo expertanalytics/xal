@@ -6,8 +6,9 @@ resources:
     src: jonathan.jpeg
 linkedin: https://www.linkedin.com/in/jonathan-feinberg-251b6892/
 email: jonathan@xal.no
-topics: [datascience]
 anchor: jonathan
+services:
+  - datascience
 ---
 
 Jonathan is a seasoned consultant with a demonstrated history of working in the

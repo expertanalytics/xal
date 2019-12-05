@@ -7,7 +7,9 @@ resources:
 linkedin: https://www.linkedin.com/in/guttorm-kvaal-533836117/
 email: guttorm@xal.no
 anchor: guttorm
-topics: [visualization, backend]
+services:
+  - visualization
+  - backend
 ---
 
 Guttorm is a curious person with an interest and enthusiasm for

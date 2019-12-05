@@ -7,7 +7,9 @@ resources:
 linkedin: https://www.linkedin.com/in/martinal/
 email: martin@xal.no
 anchor: martin
-topics: [backend, hpc]
+services:
+  - backend
+  - hpc
 ---
 
 Martin is an expert scientific programmer with a PhD in computational

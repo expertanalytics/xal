@@ -8,6 +8,19 @@
 
 {{ .Content }}
 
+<p>
+{{ $taxo := "services" }}
+{{ with .Param $taxo }}
+    <strong>Service{{ if gt (len .) 1 }}s{{ end }}:</strong>
+    {{ range $index, $service := . }}
+        {{- if gt $index 0 }}, {{ end -}}
+        {{- with $.Site.GetPage (printf "/%s/%s" $taxo $service) -}}
+            <a href="{{ .Permalink }}">{{ $service }}</a>
+        {{- end -}}
+    {{- end -}}
+{{ end }}
+</p>
+
 <ul>
   {{ with .Params.Role -}}
   <li>{{ . }}

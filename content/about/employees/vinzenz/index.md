@@ -6,8 +6,10 @@ resources:
     src: vinzenz.png
 linkedin: https://www.linkedin.com/in/vinzenz-gregor-eck-11665a116/
 email: vinzenz@xal.no
-topics: [hpc, visualization]
 anchor: vinzenz
+services:
+  - hpc
+  - visualization
 ---
 
 Vinzenz is a curious, pragmatic, creative problem solver. He holds a

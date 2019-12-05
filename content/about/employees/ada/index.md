@@ -8,7 +8,8 @@ resources:
 linkedin: https://www.linkedin.com/in/ada-ortiz-carbonell-76aaa764/
 email: ada@xal.no
 anchor: ada
-topics: [datascience]
+services:
+  - datascience
 ---
 Ada holds a PhD in Physics (specialization in Astrophysics) from the University of Barcelona, Spain, 
 which she obtained in 2003. She has more than 15 years of experience in the academic world doing 
