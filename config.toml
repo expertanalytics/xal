@@ -14,3 +14,4 @@ copyright = "© Expert Analytics AS"
 
 [taxonomies]
   services = "services"
+  projects = "projects"

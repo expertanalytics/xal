@@ -10,6 +10,9 @@ anchor: guttorm
 services:
   - visualization
   - systems
+projects:
+  - scheduling
+  - mobile
 ---
 
 Guttorm is a curious person with an interest and enthusiasm for

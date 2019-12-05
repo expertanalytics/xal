@@ -10,6 +10,8 @@ anchor: johannes
 services:
   - systems
   - hpc
+projects:
+  - mobile
 ---
 
 Johannes holds a master's degree in computational physics from the Technical

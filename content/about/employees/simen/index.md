@@ -5,6 +5,8 @@ resources:
   - name: photo
     src: simen.jpg
 linkedin: http://www.linkedin.com/in/simen-tennoee
+projects:
+  - immunotherapy
 email: simen@xal.no
 ---
 

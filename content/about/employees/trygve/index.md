@@ -10,6 +10,9 @@ anchor: trygve
 services:
   - systems
   - hpc
+projects:
+  - shyft
+  - adam
 ---
 
 Trygve holds a master's degree in Industrial Mathematics at NTNU in 2015, and

@@ -10,6 +10,8 @@ anchor: eigil
 services:
   - systems
   - hpc
+projects:
+  - mobile
 ---
 
 Eigil submitted his master's thesis in computer science in 2017 after
