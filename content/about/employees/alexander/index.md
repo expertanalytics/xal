@@ -6,6 +6,8 @@ resources:
     src: alexander.jpeg
 linkedin: https://www.linkedin.com/in/alexanfl/
 email: alexander@xal.no
+anchor: alexander
+topics: [backend, hpc]
 ---
 Alexander submitted his master's thesis in computational quantum physics at
 the University of Oslo in 2018. 
