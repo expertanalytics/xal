@@ -14,7 +14,7 @@ tasks:
       rm -rf public
   - build: |
       cd xal
-      hugo --minify --destination=../public
+      hugo --minify --destination=../public || exit 1
   - deploy: |
       if [ $GITHUB_REF = refs/heads/master ]; then
           cd public
