@@ -12,7 +12,7 @@ topics: [backend, hpc]
 Alexander submitted his master's thesis in computational quantum physics at
 the University of Oslo in 2018. 
 For the past two years, he has worked on projects in the public 
-transport sector for [Ruter As](www.ruter.no). Here he has developed
+transport sector for [Ruter As](https://www.ruter.no). Here he has developed
 software using various technologies including Python, Flask, Google OR-Tools,
 Javascript/React.js, Git, Jenkins and Amazon Web Services (AWS).
 <!--more-->
