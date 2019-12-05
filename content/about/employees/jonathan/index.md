@@ -9,6 +9,8 @@ email: jonathan@xal.no
 anchor: jonathan
 services:
   - datascience
+projects:
+  - immunotherapy
 ---
 
 Jonathan is a seasoned consultant with a demonstrated history of working in the

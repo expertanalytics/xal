@@ -5,6 +5,11 @@ resources:
   - name: photo
     src: roar.jpg
 linkedin: https://linkedin.com/in/roar-emaus
+projects:
+  - shyft
+  - adam
+services:
+  - hpc
 email: roar@xal.no
 ---
 

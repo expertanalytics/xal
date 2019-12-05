@@ -5,6 +5,11 @@ resources:
   - name: photo
     src: diako.jpg
 linkedin: https://www.linkedin.com/in/diako-darian-6a829a84/    
+services:
+  - hpc
+  - visualization
+projects:
+  - adam
 email: diako@xal.no
 ---
 

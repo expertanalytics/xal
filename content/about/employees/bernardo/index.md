@@ -5,6 +5,9 @@ resources:
   - name: photo
     src: bernardo.jpg
 linkedin: https://www.linkedin.com/in/bernardo-lino-de-oliveira-a844943a/
+projects:
+  - adam
+  - shyft
 email: bernardo@xal.no
 ---
 
