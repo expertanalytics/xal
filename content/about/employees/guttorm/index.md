@@ -9,7 +9,7 @@ email: guttorm@xal.no
 anchor: guttorm
 services:
   - visualization
-  - backend
+  - systems
 projects:
   - scheduling
   - mobile

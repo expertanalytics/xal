@@ -8,7 +8,7 @@ linkedin: https://www.linkedin.com/in/martinal/
 email: martin@xal.no
 anchor: martin
 services:
-  - backend
+  - systems
   - hpc
 projects:
   - mobile

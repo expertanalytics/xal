@@ -9,7 +9,7 @@ email: stian@xal.no
 anchor: stian
 services:
   - visualization
-  - backend
+  - systems
 projects:
   - mobile
 ---
@@ -33,4 +33,3 @@ user's perspective, and can thus see their problems and create real solutions.
 He also has experience being the link between a development team and the
 customer, having been a tech lead for a small development team in a previous
 job.
-
