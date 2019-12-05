@@ -10,6 +10,9 @@ anchor: vinzenz
 services:
   - hpc
   - visualization
+projects:
+  - adam
+  - shyft
 ---
 
 Vinzenz is a curious, pragmatic, creative problem solver. He holds a

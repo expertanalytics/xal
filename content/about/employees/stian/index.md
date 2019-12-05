@@ -10,6 +10,8 @@ anchor: stian
 services:
   - visualization
   - backend
+projects:
+  - mobile
 ---
 
 Stian finished his master's thesis at The University of Oslo in the spring of

@@ -10,6 +10,9 @@ email: ola@xal.no
 services:
   - hpc
   - visualization
+projects:
+  - shyft
+  - adam
 anchor: ola
 summary: |
   Founder of Expert Analytics. Loves mixing high and low level languages 
