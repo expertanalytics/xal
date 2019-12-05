@@ -7,7 +7,9 @@ resources:
 linkedin: https://www.linkedin.com/in/atakarakci
 email: ata@xal.no
 anchor: ata
-topics: [hpc, datascience]
+services:
+  - hpc
+  - datascience
 ---
 
 Ata holds a PhD in physics with specialisation in astrophysics which he obtained from Brown University in 2014. Before joining the Expert Analytics team, he has worked as a postdoctoral researcher at the University of Oslo and Universite Paris VII. His expertise includes statistical analysis of large data sets, numerical modelling, signal processing, imaging, and programming.

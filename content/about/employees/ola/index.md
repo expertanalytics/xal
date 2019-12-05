@@ -7,10 +7,13 @@ resources:
 role: Founder, chairman of the board
 linkedin: https://www.linkedin.com/in/skavhaug/
 email: ola@xal.no
-topics: [hpc, visualization]
+services:
+  - hpc
+  - visualization
 anchor: ola
-summary: "Founder of Expert Analytics. Loves mixing high and low level languages 
-          to join flexibility and high perfomance computing."
+summary: |
+  Founder of Expert Analytics. Loves mixing high and low level languages 
+  to join flexibility and high perfomance computing.
 ---
 
 Ola has a PhD in scientific computing, and is an expert software developer

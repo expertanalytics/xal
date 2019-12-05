@@ -3,22 +3,22 @@ title: "Welcome"
 date: 2019-01-04T20:22:13+01:00
 menu: main
 weight: 1
-box1:
-    text: Data Analysis & Machine Learning
+boxes:
+  - text: Data Analysis & Machine Learning
     link: services#datascience
-    icon: assessment
-box2:
-    text: Visualization
+    icon: assets/assessment.svg
+
+  - text: Visualization
     link: services#visualization
-    icon: trending_up
-box3:
-    text: Systems Development
+    icon: assets/trending_up.svg
+
+  - text: Systems Development
     link: services#backend
-    icon: developer_board
-box4: 
-    text: High Performance Computing
+    icon: assets/developer_board.svg
+
+  - text: High Performance Computing
     link: services#hpc
-    icon: memory
+    icon: assets/memory.svg
 ---
 
 Tordenskiolds gate 6, 0160, Oslo, Norway

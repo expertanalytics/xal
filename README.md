@@ -1,4 +1,4 @@
-# expertanalytics.no [![Build Status](https://travis-ci.org/expertanalytics/xal.svg?branch=master)](https://travis-ci.org/expertanalytics/xal)
+# expertanalytics.no [![builds.sr.ht status](https://builds.sr.ht/~eigil/xal/.build.yml.svg)](https://builds.sr.ht/~eigil/xal/.build.yml)
 
 ## Editing your bio
 

@@ -7,7 +7,9 @@ resources:
 linkedin: https://www.linkedin.com/in/trygve-b%C3%A6rland-a4b34417a/
 email: trygve@xal.no
 anchor: trygve
-topics: [backend, hpc]
+services:
+  - backend
+  - hpc
 ---
 
 Trygve holds a master's degree in Industrial Mathematics at NTNU in 2015, and

@@ -13,8 +13,8 @@
   <img src="{{ .RelPermalink }}" class="profilepic">
   {{- end }}
 
-  <div class="card">
-      <h3><a name={{ .Params.anchor }}><a href="{{ .RelPermalink }}">{{ .Title }}</a></a></h3>
+  <div class="card" id={{ .Params.anchor }}>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
     {{ .Summary }}
   </div>
 

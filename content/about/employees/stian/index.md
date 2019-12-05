@@ -7,7 +7,9 @@ resources:
 linkedin: https://www.linkedin.com/in/stianlagstad/
 email: stian@xal.no
 anchor: stian
-topics: [visualization, backend]
+services:
+  - visualization
+  - backend
 ---
 
 Stian finished his master's thesis at The University of Oslo in the spring of
