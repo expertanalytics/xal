@@ -7,7 +7,7 @@ resources:
 role: Founder, managing director
 linkedin: https://no.linkedin.com/in/asmundodegard
 services:
-  - backend
+  - systems
   - hpc
 email: asmund@xal.no
 anchor: asmund

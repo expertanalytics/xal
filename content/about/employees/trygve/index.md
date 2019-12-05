@@ -8,7 +8,7 @@ linkedin: https://www.linkedin.com/in/trygve-b%C3%A6rland-a4b34417a/
 email: trygve@xal.no
 anchor: trygve
 services:
-  - backend
+  - systems
   - hpc
 ---
 
@@ -25,4 +25,3 @@ multi-language programming.
 
 Trygve is analytical, curious and easily fascinated. This makes him eager to
 learn and well-adapted to work both as part of a team, and independently.
-

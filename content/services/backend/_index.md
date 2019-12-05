@@ -4,8 +4,8 @@ resources:
   - name: photo
     src: backend.png
 contact: asmund@xal.no
-tag: backend
-anchor: backend
+tag: systems
+anchor: systems
 weight: 100
 ---
 In todays world of everything distributed, making a system do
@@ -13,11 +13,11 @@ the right thing is not always an easy task. Adding to that, requirements that
 constantly evolve, and business owners who often like to use the new and
 shiny things. Developing software systems in a maintainable way with focus on
 correctness then becomme a nice challenge. And we are up to the it - our
-software engineers usually consider the case more interesting, the more complex it gets. 
+software engineers usually consider the case more interesting, the more complex it gets.
 
 <!--more-->
 
-Consultants at Expert Analytics have participated in large systems devlopment projects 
+Consultants at Expert Analytics have participated in large systems devlopment projects
 with many of our clients, and often take on roles as tech lead, lead
 developer or technical architect. And we are eager at keeping up with modern
 trends such as variants of agile development, test-driven development, and

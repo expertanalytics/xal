@@ -9,7 +9,7 @@ email: guttorm@xal.no
 anchor: guttorm
 services:
   - visualization
-  - backend
+  - systems
 ---
 
 Guttorm is a curious person with an interest and enthusiasm for
