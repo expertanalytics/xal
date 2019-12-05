@@ -95,7 +95,7 @@ main {
     display: flex;
     text-align: justify;
     flex-direction: column;
-    align-items: beginning;
+    justify-content: center;
 }
 
 .box {
