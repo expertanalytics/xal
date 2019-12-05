@@ -4,7 +4,7 @@ date: 2018-01-02
 resources:
   - name: photo
     src: alexander.jpeg
-linkedin: https://www.linkedin.com/in/alexander-fleischer-933106159/
+linkedin: https://www.linkedin.com/in/alexanfl/
 email: alexander@xal.no
 ---
 Alexander submitted his master's thesis in computational quantum physics at
