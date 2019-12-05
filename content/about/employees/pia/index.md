@@ -10,6 +10,8 @@ anchor: pia
 services:
   - datascience
   - hpc
+projects:
+  - scheduling
 ---
 
 Pia is a physicist with more than ten years of experience in scientific

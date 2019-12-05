@@ -10,6 +10,8 @@ anchor: martin
 services:
   - backend
   - hpc
+projects:
+  - mobile
 ---
 
 Martin is an expert scientific programmer with a PhD in computational

@@ -5,6 +5,8 @@ resources:
   - name: photo
     src: gry.png
 linkedin: https://www.linkedin.com/in/gry-m-tveten
+projects:
+  - adam
 email: gry@xal.no
 ---
 Gry is a curious, efficient and pragmatic problem solver. She completed her PhD in experimental nuclear physics at the University of Oslo in 2013 and most of her PhD work was carried out at CERN. She has 6 years of post doc experience. Her recent work focused on understanding how the elements are created in stellar processes. This research required developing detection systems, analyzing data, visualization and carrying out complex simulations. She has also teaching experience, including course development at university level and has led her own projects since she completed her PhD.

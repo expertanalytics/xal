@@ -25,10 +25,3 @@ source and distributed using the LGPL license.
  * [Source code on Gitlab](https://gitlab.com/shyft-os/shyft)
  * [Documentation](http://shyft.readthedocs.io/en/latest/)
 
-#### XAL Developers
-
- * [Ola Skavhaug]({{<ref ola>}})
- * [Eivind Storm Aarnæs]({{<ref eivind>}})
- * [Bernardo de Oliveira]({{<ref bernardo>}})
- * [Trygve Bærland]({{<ref trygve>}})
- * Magne Nordås

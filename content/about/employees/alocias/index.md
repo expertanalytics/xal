@@ -5,6 +5,8 @@ resources:
     - name: photo
       src: alocias.jpg
 linkedin: https://www.linkedin.com/in/alfred-alocias-mariadason-209b21180/
+projects:
+  - immunotherapy
 email: alocias@xal.no
 ---
 Alocias has a master's degree in physics from the University of Oslo, submitted
