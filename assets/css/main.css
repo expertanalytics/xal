@@ -39,7 +39,7 @@ body {
     margin: 0;
     display: grid;
     min-height: 100%;
-    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-columns: 2fr 5fr 2fr;
     grid-template-rows: auto 1fr auto;
 }
 
@@ -56,8 +56,8 @@ body {
 }
 
 p {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
 }
 
 h2 {
@@ -95,7 +95,7 @@ main {
     display: flex;
     text-align: justify;
     flex-direction: column;
-    align-items: beginning;
+    justify-content: center;
 }
 
 .box {
@@ -185,13 +185,13 @@ img {
 
 .servicebox {
     display: grid;
+    padding-top: 3em;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
     grid-auto-rows: auto;
     max-width: 800px;
     text-align: left;
 }
-
 
 @media(max-width: 700px) {
     .bio {
