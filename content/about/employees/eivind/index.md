@@ -9,6 +9,8 @@ email: eivind@xal.no
 anchor: eivind
 services:
   - hpc
+projects:
+  - shyft
 ---
 
 Eivind has a masters degree in Computational Science from the

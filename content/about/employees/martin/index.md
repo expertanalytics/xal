@@ -8,8 +8,10 @@ linkedin: https://www.linkedin.com/in/martinal/
 email: martin@xal.no
 anchor: martin
 services:
-  - backend
+  - systems
   - hpc
+projects:
+  - mobile
 ---
 
 Martin is an expert scientific programmer with a PhD in computational

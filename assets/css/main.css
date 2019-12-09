@@ -56,8 +56,8 @@ body {
 }
 
 p {
-    margin-top: .3em;
-    margin-bottom: .5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 h2 {
@@ -95,11 +95,7 @@ main {
     display: flex;
     text-align: justify;
     flex-direction: column;
-    align-items: beginning;
-}
-
-box {
-    grid-column: 1;
+    justify-content: center;
 }
 
 .box {
@@ -147,7 +143,8 @@ img {
     max-height: 40vh;
     max-width: 100%;
     margin: 0 auto;
-    padding-top: 1em;
+    padding-top: 1.3em;
+    padding-bottom: 1.5em;
 }
 
 .logo {
@@ -188,9 +185,9 @@ img {
 
 .servicebox {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(80px, auto);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    grid-auto-rows: auto;
     max-width: 800px;
     text-align: left;
 }
@@ -209,6 +206,11 @@ img {
 
     .mobile-footer {
         display: grid;
+    }
+
+    .servicebox {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(80px, auto);
     }
 }
 
@@ -286,4 +288,3 @@ img {
         }
     }
 }
-

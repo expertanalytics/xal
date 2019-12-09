@@ -11,6 +11,9 @@ phone: +47 926 12 490
 services:
   - hpc
   - visualization
+projects:
+  - shyft
+  - adam
 anchor: ola
 summary: |
   Founder of Expert Analytics. Loves mixing high and low level languages 

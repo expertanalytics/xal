@@ -5,7 +5,7 @@
 
 {{ .Content }}
 
-{{ range .Pages }}
+{{ range .Pages.ByTitle }}
 <article>
 
   <h2><a class="clear" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>

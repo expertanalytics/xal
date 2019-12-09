@@ -7,15 +7,17 @@ resources:
 role: Founder, managing director
 linkedin: https://no.linkedin.com/in/asmundodegard
 services:
-  - backend
+  - systems
   - hpc
+projects:
+  - mobile
 email: asmund@xal.no
 phone: +47 900 69 915
 anchor: asmund
 summary: |
   Founder of Expert Analytics. Enjoys developing small and large
   systems in a number of languages and environments. Makes sure that
-  everyting is working well, both with clients and internally
+  everyting is working well, both with clients and internally.
 ---
 
 Åsmund is a senior software developer, project leader, and researcher, with more

@@ -12,7 +12,7 @@
 <div class="center">
   <div class="servicebox">
     {{ range .Params.boxes }}
-    <a href="{{ .link }}"><div class="box">{{ readFile .icon | safeHTML }}<span class="center-span">{{ .text }}</span></div></a>
+    <a href="{{ .link }}" class="box">{{ readFile .icon | safeHTML }}<span class="center-span">{{ .text }}</span></a>
     {{ end }}
   </div>
 </div>
