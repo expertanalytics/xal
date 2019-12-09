@@ -3,7 +3,7 @@ title: "High Performance Computing"
 resources:
   - name: photo
     src: supercomputer.jpg
-contact: ola@xal.no
+contact: ola
 tag: hpc
 weight: 60
 ---

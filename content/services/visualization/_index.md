@@ -3,7 +3,7 @@ title: "Advanced Data Visualization"
 resources:
   - name: photo
     src: visualization.png
-contact: vinzenz@xal.no
+contact: vinzenz
 tag: visualization
 weight: 40
 ---

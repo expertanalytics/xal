@@ -3,7 +3,7 @@ title: "Systems Development"
 resources:
   - name: photo
     src: backend.png
-contact: asmund@xal.no
+contact: asmund
 tag: systems
 anchor: systems
 weight: 100
