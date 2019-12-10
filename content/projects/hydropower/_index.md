@@ -12,7 +12,6 @@ plants. Our team of consultants developed a machine learning platform, the surro
 backend infrastructure as well as visualization tools to explore and analyse
 sensor data for both specific use cases as well as across the entire fleet.
 
-![Cancer cells](/img/cancer.jpg)
 
 We explore the data in close collaboration with the maintenance team on site and apply
 state-of-the-art machine learning algorithms to monitor various kinds of failure modes
