@@ -8,7 +8,7 @@ linkedin: https://www.linkedin.com/in/alexanfl/
 email: alexander@xal.no
 anchor: alexander
 services:
-  - backend
+  - systems
   - hpc
 ---
 Alexander submitted his master's thesis in computational quantum physics at
