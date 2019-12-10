@@ -5,11 +5,8 @@ menu: main
 weight: 20
 ---
 
-Expert Analytics is a Norwegian consultancy offering high-quality
-technology solutions to both domestic and international customers. We
-are a spin-out from [Simula Research
-Laboratory](https://www.simula.no) and are based in Oslo, Norway.
-
+Expert Analytics is a Norwegian consultancy, based in Oslo, offering
+high-quality technology solutions to both domestic and international customers.
 Our experts have years of hands-on experience in the natural sciences,
 which translates into an ability to analyse and solve complex
 challenges. For the client, it guarantees that our solutions will meet
@@ -24,6 +21,9 @@ We offer services within the following fields:
   integrations, scripting, etc.
 - Advisory services within ICT
 - Training
+
+Expert Analytics was founded in 2013, and originated from [Simula Research
+Laboratory](https://www.simula.no) 
 
 Contact us for quotes and rates:
 
