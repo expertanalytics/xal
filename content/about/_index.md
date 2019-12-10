@@ -5,7 +5,7 @@ menu: main
 weight: 20
 ---
 
-Expert Analytics is a Norwegian consultancy, based in Oslo, offering
+Expert Analytics is consultancy based in Oslo, Norway. We are offering
 high-quality technology solutions to both domestic and international customers.
 Our experts have years of hands-on experience in the natural sciences,
 which translates into an ability to analyse and solve complex
