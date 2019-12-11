@@ -10,7 +10,7 @@ technology solutions to both domestic and international customers. We
 are a spin-out from [Simula Research
 Laboratory](https://www.simula.no) and are based in Oslo, Norway.
 
-Our experts have years of hands on experience in the natural sciences,
+Our experts have years of hands-on experience in the natural sciences,
 which translates into an ability to analyse and solve complex
 challenges. For the client, it guarantees that our solutions will meet
 their needs and beyond.
