@@ -5,9 +5,8 @@ packages:
 sources:
   - https://github.com/expertanalytics/xal
 environment:
-  prod_repo: https://github.com/expertanalytics/expertanalytics.github.io
+  prod_repo: git@github.com:expertanalytics/expertanalytics.github.io.git
 secrets:
-  - a53f2040-0e67-40b1-b77e-d6b56576a5f8
   - db8a8c85-48b3-4545-95f5-08109ebb57b1
 tasks:
   - setup: |
