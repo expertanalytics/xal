@@ -6,6 +6,7 @@ sources:
   - https://github.com/expertanalytics/xal
 environment:
   prod_repo: git@github.com:expertanalytics/expertanalytics.github.io.git
+  ssh_command: ssh -o StrictHostKeyChecking=no
 secrets:
   - db8a8c85-48b3-4545-95f5-08109ebb57b1
 tasks:
@@ -21,10 +22,11 @@ tasks:
           git init
           git config user.name builds.sr.ht
           git config user.email post@expertanalytics.no
+          git config core.sshCommand "$ssh_command"
           git add .
           git commit -m 'Deploy from sr.ht'
           git push $prod_repo master --force
       else
-          rsync -e 'ssh -o StrictHostKeyChecking=no' --delete -rv \
+          rsync -e "$ssh_command" --delete -rv \
               public/ deploy@dev.xal.no:www/pr/${GITHUB_REF##*/}
       fi
