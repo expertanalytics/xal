@@ -3,7 +3,7 @@ title: "Data Science and Machine Learning"
 resources:
   - name: photo
     src: inversionsMgII.jpg
-contact: vinzenz@xal.no
+contact: vinzenz
 tag: datascience
 weight: 10
 ---
@@ -27,7 +27,7 @@ helping businesses operate more effectively.
 Examples of data science applications useful in an industrial environment are
 the detection of anomalies in the normal functioning of expensive heavy
 machinery, where data from sensors are used to predict maintenance operations
-or schedule stops in production. Other exampled are optimisation problems where
+or schedule stops in production. Other examples are optimisation problems where
 production (and thus benefits) is maximized, maintenance operations minimized
 within safety regulations, and optimization of work schedules in terms of the
 allocation of manpower relative to demand.
