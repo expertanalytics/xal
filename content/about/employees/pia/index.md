@@ -12,20 +12,21 @@ services:
   - hpc
 projects:
   - scheduling
+  - hydropower
 ---
 
 Pia is a physicist with more than ten years of experience in scientific
-programming and data analysis. She holds a PhD in physics, which she obtained
-from the University of Freiburg, Germany in 2010. She has been working as a
-researcher, mentor and lecturer in astrophysics at different research
-institutions across Europe before she joined Expert Analytics in 2018.
-Her areas of expertise include numerical simulations of complex physical systems,
-statistical data analysis and signal processing, as well machine learning applications
-and visualization and handling of large datasets.
+computing and data analysis. She holds a PhD in physics from the
+University of Freiburg, Germany. Before she joined Expert Analytics,
+she worked as a researcher, mentor and lecturer in astrophysics at
+different research institutions across Europe. Her areas of expertise
+include numerical simulations of complex physical systems, predictive modeling
+and statistical data analysis, as well as machine learning model development
+and implementation, signal processing and visualization of large datasets.
 
 <!--more-->
 
-Her analytical mindset and a solid background in physics provide her with a
+Her analytical mindset and strong background in physics provide her with a
 solid foundation for finding solutions to complex problems. She is interested
 in new challenges, with the goal of applying sophisticated physics and math concepts
 to develop real world solutions for big data.
