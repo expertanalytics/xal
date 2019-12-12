@@ -11,7 +11,7 @@ anchor: ada
 services:
   - datascience
 summary: |
-    Astrophysicist researcher turned into data scientist and having fun with it. After 20 years in academia I decided to take on a new challenge and apply my skills in the industry. If you want to read more, please click on my name.
+    Astrophysicist researcher turned into data scientist and having fun with it. After 20 years in academia I decided to take on a new challenge and apply my skills in the industry. 
 ---
 Ada holds a PhD in Physics (specialization in Astrophysics) from the University of Barcelona, Spain,
 which she obtained in 2003. She has 20 years of experience in the academic world doing
