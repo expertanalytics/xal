@@ -6,6 +6,7 @@ resources:
     src: vinzenz.png
 linkedin: https://www.linkedin.com/in/vinzenz-gregor-eck-11665a116/
 email: vinzenz@xal.no
+phone: +47 451 24 193
 anchor: vinzenz
 services:
   - hpc
