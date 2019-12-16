@@ -6,6 +6,7 @@ googleAnalytics = "UA-153490291-1"
 
 [params]
 copyright = "© Expert Analytics AS"
+director = "asmund"
 
 [privacy]
   [privacy.googleAnalytics]

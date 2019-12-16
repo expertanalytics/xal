@@ -8,7 +8,12 @@
 
 {{ .Content }}
 
-<div>Contact Point: <a href="mailto:{{ .Params.Contact }}">{{ .Params.Contact }}</a></div>
+{{ with .Site.GetPage .Params.Contact }}
+<div>Contact Point: <a href="mailto:{{ .Params.Email }}">{{ .Params.Email }}</a></div>
+{{ with .Params.Phone }}
+<div>Phone: {{ . }}</div>
+{{ end }}
+{{ end }}
 
 <h2>Consultants: </h2>
 {{ range .Pages.ByTitle }}

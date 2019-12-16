@@ -26,5 +26,5 @@ Tordenskiolds gate 6, 0160, Oslo, Norway
 {{< hide-if-mobile >}}
   Get in touch with us either by e-mail to
   [post@expertanalytics.no](mailto:post@expertanalytics.no)
-  or by calling us at +47 900 69 915
+  or by calling us at +47 900 69 915.
 {{< /hide-if-mobile >}}
