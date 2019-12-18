@@ -5,19 +5,19 @@ menu: main
 weight: 1
 boxes:
   - text: Data Analysis & Machine Learning
-    link: services#datascience
+    link: services/datascience/
     icon: assets/assessment.svg
 
   - text: Visualization
-    link: services#visualization
+    link: services/visualization/
     icon: assets/desktop_mac-24px.svg
 
   - text: Systems Development
-    link: services#systems
+    link: services/systems/
     icon: assets/developer_board.svg
 
   - text: High Performance Computing
-    link: services#hpc
+    link: services/hpc/
     icon: assets/memory.svg
 ---
 
