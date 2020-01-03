@@ -3,7 +3,7 @@ title: "Emil Løvgren"
 date: 2020-01-01
 resources:
   - name: photo
-    src: emil.jpeg
+    src: emil.jpg
 role: Consultant
 linkedin: https://no.linkedin.com/in/emillovgren
 services:
