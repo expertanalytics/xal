@@ -131,6 +131,10 @@ details > summary {
     cursor: pointer;
 }
 
+ul.no-bullets {
+    list-style-type: none;
+}
+
 dt {
     font-weight: bold;
 }
