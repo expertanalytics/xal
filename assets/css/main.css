@@ -131,6 +131,12 @@ details > summary {
     cursor: pointer;
 }
 
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
 dt {
     font-weight: bold;
 }
@@ -139,13 +145,7 @@ ul {
     margin-top: .2em;
 }
 
-.bulletfree {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-ul img {
+ul.no-bullets img {
     height: 1.5em;
     width: auto;
     border: 0px;
