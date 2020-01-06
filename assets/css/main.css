@@ -139,6 +139,19 @@ ul {
     margin-top: .2em;
 }
 
+.bulletfree {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul img {
+    height: 1.5em;
+    width: auto;
+    border: 0px;
+    padding: 0.5em;
+}
+
 img {
     max-height: 40vh;
     max-width: 100%;
