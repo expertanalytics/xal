@@ -5,23 +5,8 @@
 {{ with .Resources.GetMatch "photo" -}}
 <img src="{{ .RelPermalink }}" class="profilepic">
 {{- end }}
-
-{{ .Content }}
-
-<p>
-{{ $taxo := "services" }}
-{{ with .Param $taxo }}
-    <strong>Service{{ if gt (len .) 1 }}s{{ end }}:</strong>
-    {{ range $index, $service := . }}
-        {{- if gt $index 0 }}, {{ end -}}
-        {{- with $.Site.GetPage (printf "/%s/%s" $taxo $service) -}}
-            <a href="{{ .Permalink }}">{{ $service }}</a>
-        {{- end -}}
-    {{- end -}}
-{{ end }}
-</p>
-
-<ul>
+<div class="center">
+<ul style="list-style-type:none">
   {{ with .Params.Role -}}
   <li>{{ . }}
   {{- end}}
@@ -35,5 +20,22 @@
   <li>Phone: {{ . }}
   {{- end }}
 </ul>
+</div>
+
+{{ .Content }}
+
+<p>
+{{ $taxo := "services" }}
+{{ with .Param $taxo }}
+    <strong>Service{{ if gt (len .) 1 }}s{{ end }}:</strong>
+        <ul>
+    {{ range $index, $service := . }}
+        {{- with $.Site.GetPage (printf "/%s/%s" $taxo $service) -}}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{- end -}}
+    {{- end -}}
+    </ul>
+{{ end }}
+</p>
 
 {{ end }}
