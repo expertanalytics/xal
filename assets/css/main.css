@@ -131,12 +131,25 @@ details > summary {
     cursor: pointer;
 }
 
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
 dt {
     font-weight: bold;
 }
 
 ul {
     margin-top: .2em;
+}
+
+ul.no-bullets img {
+    height: 1.5em;
+    width: auto;
+    border: 0px;
+    padding: 0.5em;
 }
 
 img {
