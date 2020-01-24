@@ -45,6 +45,14 @@ address and run
 $ hugo server hugo --bind=your.ip.addess.goes.here -D
 ```
 
+## Checking your changes
+
+You can check your PR by opening the following page in your selection of browsers and devices:
+```
+http://<branch_name>.pr.dev.xal.no
+```
+Remember to check with both a computer and a phone (and preferably a couple of different browsers).
+
 ## Publishing
 
 Pushing to master triggers an automatic deploy through Travis CI

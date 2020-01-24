@@ -5,6 +5,22 @@
 {{ with .Resources.GetMatch "photo" -}}
 <img src="{{ .RelPermalink }}" class="profilepic">
 {{- end }}
+<div class="center">
+<ul class="no-bullets">
+  {{ with .Params.Role -}}
+  <li>{{ . }}
+  {{- end}}
+  {{ with .Params.Phone -}}
+  <li>Phone: {{ . }}
+  {{- end }}
+  {{ with .Params.Email -}}
+  <li><a href="mailto:{{ . }}">{{ . }}</a>
+  {{- end }}
+  {{ with .Params.Linkedin -}}
+  <li><a href="{{ . }}"><img src="/img/LI-In-Bug.png"></a>
+  {{- end }}
+</ul>
+</div>
 
 {{ .Content }}
 
@@ -12,28 +28,14 @@
 {{ $taxo := "services" }}
 {{ with .Param $taxo }}
     <strong>Service{{ if gt (len .) 1 }}s{{ end }}:</strong>
+        <ul>
     {{ range $index, $service := . }}
-        {{- if gt $index 0 }}, {{ end -}}
         {{- with $.Site.GetPage (printf "/%s/%s" $taxo $service) -}}
-            <a href="{{ .Permalink }}">{{ $service }}</a>
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a>
         {{- end -}}
     {{- end -}}
+    </ul>
 {{ end }}
 </p>
-
-<ul>
-  {{ with .Params.Role -}}
-  <li>{{ . }}
-  {{- end}}
-  {{ with .Params.Linkedin -}}
-  <li><a href="{{ . }}">LinkedIn</a>
-  {{- end }}
-  {{ with .Params.Email -}}
-  <li><a href="mailto:{{ . }}">{{ . }}</a>
-  {{- end }}
-  {{ with .Params.Phone -}}
-  <li>Phone: {{ . }}
-  {{- end }}
-</ul>
 
 {{ end }}
