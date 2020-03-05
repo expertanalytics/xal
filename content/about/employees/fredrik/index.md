@@ -5,7 +5,6 @@ linkedin: https://www.linkedin.com/in/fredrikmeyer/
 resources:
   - name: photo
     src: fredrik.jpg
-draft: true
 email: fredrik@xal.no
 ---
 
