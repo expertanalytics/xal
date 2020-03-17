@@ -1,14 +1,16 @@
 ---
 title: "Mobile Payments"
 weight: 70
+summary: "Since 2013, we have been involved in projects with Norwegian companies building
+    mobile payment systems; mCash, Auka, and Vipps. Our involvement have mostly
+    been on the backend, working on core transaction and settlement logic as well
+    as internal and external APIs."
 ---
 
 Since 2013, we have been involved in projects with Norwegian companies building
 mobile payment systems; mCash, Auka, and Vipps. Our involvement have mostly
 been on the backend, working on core transaction and settlement logic as well
 as internal and external APIs.
-
-<!--more-->
 
 ![Mobile Payment](/img/mobilepay.jpg)
 
