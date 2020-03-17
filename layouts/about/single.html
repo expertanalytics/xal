@@ -2,9 +2,10 @@
 
 <h1 class="center">{{ .Title }}</h1>
 
-{{ with .Resources.GetMatch "photo" -}}
-<img src="{{ .RelPermalink }}" class="profilepic">
-{{- end }}
+{{ $original := .Resources.GetMatch "photo" }}
+{{ $resized := $original.Resize "500x" }}
+<img src="{{ $resized.RelPermalink }}" class="profilepic">
+
 <div class="center">
 <ul class="no-bullets">
   {{ with .Params.Role -}}
