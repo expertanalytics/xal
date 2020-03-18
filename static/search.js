@@ -10,6 +10,7 @@ const postsByTitle = posts.reduce((acc, curr) => {
     return acc;
 }, {});
 
+elasticlunr.clearStopWords()
 async function loadIndex() {
     const res = await fetch('/gen/index.json')
     const json = await res.json()
