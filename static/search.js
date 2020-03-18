@@ -13,7 +13,7 @@ const postsByTitle = posts.reduce((acc, curr) => {
 async function loadIndex() {
     const res = await fetch('/gen/index.json')
     const json = await res.json()
-    return lunr.Index.load(json)
+    return elasticlunr.Index.load(json)
 }
 
 loadIndex().then((index) => {
@@ -33,18 +33,11 @@ loadIndex().then((index) => {
     })
 })
 
-
-function getResults(index, searchString) {
-    const matches = index.search(searchString + '*')
-    console.log(matches)
-}
-
 function updateDOM(matches) {
     const matchPosts = matches
         .map(m => postsByTitle[m.ref])
         .filter(Boolean)
 
-    console.log(matchPosts)
     if (matchPosts.length > 0) {
         $target.innerHTML = matchPosts.map(p => {
             return `
@@ -54,5 +47,7 @@ function updateDOM(matches) {
 </div>
             `
         }).join('')
+    } else {
+        $target.innerHTML = "Ingen treff."
     }
 }

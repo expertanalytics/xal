@@ -44,6 +44,7 @@ async function loadPostsWithFrontMatter() {
 }
 
 function makeIndex(posts) {
+    elasticlunr.clearStopWords()
     return elasticlunr(function() {
         this.setRef('title');
         this.addField('title');
