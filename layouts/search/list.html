@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<h1 class="center">{{ .Title }}</h1>
+
+{{ .Content }}
+
+<form method="get">
+  <input id="search" name="q" type="text" />
+  <button type="submit">Search</button>
+</form>
+<div id="searchresults"></div>
+
+{{ $p := slice }}
+{{ range .Site.Pages }}
+  {{ $post := dict "link" .RelPermalink "title" .Title "content" (substr .Plain 0 200) -}}
+  {{ $p = $p | append $post -}}
+{{ end }}
+<script>
+  const posts = JSON.parse(
+  {{ $p | jsonify }}
+);
+</script>
+
+<script src="/elasticlunr.min.js"></script>
+<script type="application/x-javascript" src="/search.js"></script>
+
+
+{{ end }}
+ 
+ 

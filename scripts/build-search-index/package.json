@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "elasticlunr": "^0.9.5",
+    "front-matter": "^3.1.0"
+  }
+}
