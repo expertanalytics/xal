@@ -14,6 +14,7 @@ services:
 projects:
   - adam
   - shyft
+  - hydropower
 ---
 
 Vinzenz is a curious, pragmatic, creative problem solver. He holds a
