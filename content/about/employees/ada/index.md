@@ -1,7 +1,6 @@
 ---
 title: "Ada Ortiz-Carbonell"
 date: 2019-09-01
-weight: 7
 resources:
   - name: photo
     src: ada.png
