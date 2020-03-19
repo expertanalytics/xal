@@ -10,15 +10,20 @@ anchor: rh
 services:
   - datascience
   - visualization
+  - hpc
 ---
 
-Robert is finishing a PhD in astrophysics at the University of Oslo, with
-specialisation in cosmological simulations. He is experienced with numerical
-modelling of physical systems, statistical analysis of large data sets, and
-solving highly non-linear systems of differential equations with parallel
-computing.
+Robert has a PhD in astrophysics, with a specialisation in 
+cosmological simulations. He is experienced with numerical
+modelling of physical systems, statistical analysis of large data sets, 
+high-performance computing, and cloud based applications.
 
 <!--more-->
 
+Robert finished his PhD at the University of Oslo in 2019.
+His thesis involved solving highly non-linear systems of differential equations
+with parallel computing and analysing gigabytes of output data.
 His scientific background and curious mind is a strong combination for finding
-and combining knowledge, as well as for quickly adapting to new situations.
+and synthesizing knowledge, as well as for quickly adapting to new situations.
+In addition to science and programming, he has a passion for teaching 
+and explaining technical concepts in an easily understandable way.
