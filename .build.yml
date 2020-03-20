@@ -2,7 +2,6 @@ image: alpine/latest
 packages:
   - hugo
   - rsync
-  - node
   - npm
 sources:
   - https://github.com/expertanalytics/xal
