@@ -15,7 +15,7 @@ tasks:
       rm -rf public
   - build: |
       cd xal
-      cd scripts/build-search-index && npm install && -
+      cd scripts/build-search-index && npm install && cd .. && cd ..
       ./scripts/build-search-index/build-index.js > static/gen/index.json
       hugo --minify --destination=../public || exit 1
   - deploy: |
