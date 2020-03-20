@@ -26,6 +26,9 @@ loadIndex().then((index) => {
                 },
                 body: {
                     boost: 1
+                },
+                tags: {
+                    boost: 3
                 }
             },
                 expand: true

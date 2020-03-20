@@ -2,6 +2,7 @@
 title: "Machine Learning"
 date: 2019-01-05T14:15:05+01:00
 weight: 40
+tags: ["machine learning", "ml", "ai"]
 ---
 
 Machine learning is the field of study that gives computers the
