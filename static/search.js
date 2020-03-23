@@ -41,8 +41,7 @@ function search(index, searchWord) {
             tags: {
                 boost: 3
             }
-        },
-            expand: true
+        }, expand: true
     })
     return matches;
 }

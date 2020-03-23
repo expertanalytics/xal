@@ -299,6 +299,7 @@ img {
 
 .search-form {
     display: inline;
+    position: relative;
 }
 
 .search-field {
@@ -319,4 +320,43 @@ img {
 
 .search-field:focus {
     width: 200px;
+}
+
+.search-popup-container {
+    position: absolute;
+    height: 100vh;
+    top: 0px;
+    right: 0;
+    width: 0;
+    bottom: 0;
+}
+
+.search-popup {
+    visibility: hidden;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    max-height: 90%;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #efefef;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+
+    text-align: left;
+    font-size: 12px;
+    overflow: auto;
+    padding: 5px;
+}
+
+#search-popup-content {
+    position: relative;
+}
+
+.visible-popup {
+    visibility: visible;
+    width: 300px;
+    min-height: 300px;
+    height: auto;
 }
