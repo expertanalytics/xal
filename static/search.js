@@ -1,7 +1,7 @@
-//const query = new URLSearchParams(window.location.search);
-/* const searchString = query.get('q'); */
+const query = new URLSearchParams(window.location.search);
+const searchString = query.get('q');
 const searchBox = document.querySelector('#search')
-/* searchBox.value = searchString; */
+searchBox.value = searchString;
 const $target = document.querySelector('#searchresults');
 
 // Index uses title as a reference
@@ -19,23 +19,34 @@ async function loadIndex() {
 
 loadIndex().then((index) => {
     searchBox.addEventListener('input', (e) => {
-        const matches = index.search(e.target.value,
-            { fields: {
-                title: {
-                    boost: 2
-                },
-                body: {
-                    boost: 1
-                },
-                tags: {
-                    boost: 3
-                }
-            },
-                expand: true
-        })
+        const matches = search(index, e.target.value)
         updateDOM(matches)
     })
+
+    if (searchString) {
+        const matches = search(index, searchString);
+        updateDOM(matches)
+    }
 })
+
+function search(index, searchWord) {
+    const matches = index.search(searchWord,
+        { fields: {
+            title: {
+                boost: 2
+            },
+            body: {
+                boost: 1
+            },
+            tags: {
+                boost: 3
+            }
+        },
+            expand: true
+    })
+    return matches;
+}
+
 
 function updateDOM(matches) {
     const matchPosts = matches

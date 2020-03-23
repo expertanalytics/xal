@@ -4,5 +4,8 @@
     {{- range .Site.Menus.main }}
     <a href="{{ .URL }}">{{ .Name }}</a>
     {{- end }}
+    <form action="/search" method="GET" class="search-form">
+      <input class="search-field" type="text" name="q" placeholder="Search..."/>
+    </form>
   </nav>
 </header>
