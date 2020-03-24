@@ -9,10 +9,9 @@
 {{ range .Pages }}
 <article class="bio">
 
-  {{ $original := .Resources.GetMatch "photo" }}
-  {{ $resized := $original.Resize "200x" }}
-  <img src="{{ $resized.RelPermalink }}" class="profilepic">
-
+  {{ with (.Resources.GetMatch "photo").Resize "200x" -}}
+  <img src="{{ .RelPermalink }}" class="profilepic">
+  {{- end }}
   <div class="card" id={{ .Params.anchor }}>
     <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
     {{ .Summary }}

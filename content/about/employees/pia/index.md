@@ -12,6 +12,7 @@ services:
   - hpc
 projects:
   - scheduling
+  - hydropower
 ---
 
 Pia is a physicist with more than ten years of experience in scientific
