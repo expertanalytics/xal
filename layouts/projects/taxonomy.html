@@ -11,7 +11,7 @@
 <h4>Consultants: </h4>
 {{ range .Pages.ByTitle }}
   <article class="bio">
-    {{ with .Resources.GetMatch "photo" -}}
+    {{ with (.Resources.GetMatch "photo").Resize "400x" -}}
       <img src="{{ .RelPermalink }}" class="profilepic">
     {{ end }}
 
