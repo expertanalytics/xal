@@ -1,0 +1,10 @@
+* Static search functionality
+
+This is the code for building an index used for the static search. For documentation, see [[http://elasticlunr.com/][Elasticlunr]]'s home page. It is a "Lightweight full-text search engine in Javascript for browser search and offline search."
+
+To build the index, run the following command *in the root directory*:
+#+begin_src bash
+./scripts/build-search-index/build-index.js > static/gen/index.json
+#+end_src
+
+This is done automatically during CI build.
