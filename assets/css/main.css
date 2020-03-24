@@ -297,6 +297,8 @@ img {
     }
 }
 
+
+/* Search box:  */
 .search-form {
     display: inline;
     position: relative;
@@ -319,16 +321,7 @@ img {
 }
 
 .search-field:focus {
-    width: 200px;
-}
-
-.search-popup-container {
-    position: absolute;
-    height: 100vh;
-    top: 0px;
-    right: 0;
-    width: 0;
-    bottom: 0;
+    /* width: 200px; */
 }
 
 .search-popup {
@@ -359,4 +352,10 @@ img {
     width: 300px;
     min-height: 300px;
     height: auto;
+}
+
+@media(max-width: 500px) {
+    .search-popup {
+        right: unset;
+    }
 }

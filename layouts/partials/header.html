@@ -5,11 +5,9 @@
     {{- end }}
     <form action="/search" method="GET" class="search-form">
       <input autocomplete="off" id="search-field" class="search-field" type="text" name="q" placeholder="Search..."/>
-      <div class="search-popup-container">
         <div id="search-popup" class="search-popup">
           <div id="search-popup-content"></div>
         </div>
-      </div>
     </form>
   </nav>
 </header>
@@ -17,7 +15,7 @@
 <script src="/elasticlunr.min.js"></script>
 {{ $p := slice }}
 {{ range .Site.Pages }}
-  {{ $post := dict "link" .RelPermalink "title" .Title "content" (substr .Plain 0 200) "tags" .Params.tags -}}
+  {{ $post := dict "link" .RelPermalink "title" .Title "content" (substr .Plain 0 150) "tags" .Params.tags -}}
   {{ $p = $p | append $post -}}
 {{ end }}
 <script>

@@ -17,27 +17,15 @@ const resultBoxContent = document.querySelector('#search-popup-content')
 box.addEventListener('focus', e => {
     resultBox.classList.add('visible-popup')
     resultBoxContent.innerHTML = 'Type to search.'
-    console.log('focused')
 })
 
 document.addEventListener('click', e => {
     e.stopPropagation()
     if (resultBox.contains(e.target) || box.contains(e.target)) {
-        console.log('clicked inside')
     } else {
-        console.log('clicked outside')
         resultBox.classList.remove('visible-popup');
-        /* resultBox.style.visibility = 'hidden'; */
-        /* resultBox.style.width = '0'; */
-        /* resultBox.style.height = '0'; */
     }
 })
-// box.addEventListener('blur', e => {
-//     resultBox.style.visibility = 'hidden';
-//     resultBox.style.width = '0';
-//     resultBox.style.height = '0';
-
-// })
 
 loadIndex().then(index => {
     box.addEventListener('input', e => {
@@ -72,10 +60,11 @@ function updateDOM(matches) {
 
     if (matchPosts.length > 0) {
         resultBoxContent.innerHTML = matchPosts.map(p => {
+            const content = p.content ? p.content + '...' : ''
             return `
 <div>
 <h3><a href="${p.link}">${p.title}</a></h3>
-<p>${p.content}</p>
+<p>${content}</p>
 </div>
             `
         }).join('')
