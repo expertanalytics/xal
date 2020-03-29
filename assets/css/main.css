@@ -356,4 +356,8 @@ img {
     .search-popup {
         right: unset;
     }
+
+    .visible-popup {
+        width: 80vw;
+    }
 }
