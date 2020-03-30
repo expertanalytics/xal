@@ -360,4 +360,8 @@ img {
     .visible-popup {
         width: 80vw;
     }
+
+    _::-webkit-full-page-media, _:future, :root .search-popup {
+        transform: translate(-70%, 0);
+    }
 }
