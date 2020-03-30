@@ -361,6 +361,12 @@ img {
         width: 80vw;
     }
 
+    @supports (-webkit-touch-callout: none) {
+        .search-popup {
+            transform: translate(-70%, 0);
+        }
+    }
+
     _::-webkit-full-page-media, _:future, :root .search-popup {
         transform: translate(-70%, 0);
     }
