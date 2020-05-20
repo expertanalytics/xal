@@ -17,4 +17,4 @@ Ada is editor and author of two articles in the book. She is a data scientist at
 
 <!--more-->
 
-![Cover of the new EST education & outreach book](book_cover.jpg)
+![Cover of the new EST education & outreach book](book_cover.png)
