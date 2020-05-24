@@ -15,6 +15,7 @@ solar astronomers from 30 different European research centers and universities. 
 
 [Ada Ortiz-Carbonell](https://expertanalytics.no/about/employees/ada/) is editor and author of two articles in the book. She is a data scientist at Expert Analytics with a background in academia. Her field of research is Solar Physics, and in addition to doing research she communicates science in education & outreach activities.
 
+The book can be downloaded as a free PDF file [here](http://www.est-east.eu/est/index.php?option=com_content&view=article&id=788&Itemid=622&lang=en)
 
 <!--more-->
 
