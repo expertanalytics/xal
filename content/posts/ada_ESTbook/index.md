@@ -1,6 +1,7 @@
 ---
 title: "Expert Analytics and scientific outreach"
-date: 2020-05-20
+date: 2020-05-24T20:09:04+02:00
+draft: true
 illustration: book_cover.png
 ---
 The Science of EST
@@ -12,7 +13,7 @@ media between May 2018 and April 2020. The goal was to raise awareness of solar 
 of the future EST among a general, non-specialised audience. A total of 77 articles were written by professional
 solar astronomers from 30 different European research centers and universities. All the articles are now collected in this book.
 
-Ada is editor and author of two articles in the book. She is a data scientist at Expert Analytics with a background in academia. Her field of research is Solar Physics, and in addition to doing research she communicates science within education & outreach activities.
+[Ada Ortiz-Carbonell](https://expertanalytics.no/about/employees/ada/) is editor and author of two articles in the book. She is a data scientist at Expert Analytics with a background in academia. Her field of research is Solar Physics, and in addition to doing research she communicates science in education & outreach activities.
 
 
 <!--more-->
