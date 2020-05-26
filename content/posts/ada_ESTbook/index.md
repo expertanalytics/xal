@@ -1,7 +1,6 @@
 ---
 title: "Expert Analytics and scientific outreach"
 date: 2020-05-24T20:09:04+02:00
-draft: true
 illustration: book_cover.png
 ---
 The Science of EST
