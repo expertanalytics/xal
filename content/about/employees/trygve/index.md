@@ -16,7 +16,7 @@ projects:
 ---
 
 Trygve holds a master's degree in Industrial Mathematics at NTNU in 2015, and
-has submitted a Ph.D. in Computational Mathematics at the University of Oslo in
+ a Ph.D. in Computational Mathematics at the University of Oslo in
 2019. In his thesis Trygve developed, analysed and implemented efficient
 algorithms for solving systems of equations related to fluid flow in the brain.
 
