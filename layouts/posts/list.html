@@ -6,7 +6,7 @@
 {{ range $p := .Pages }}
 <article>
 
-  <h2><a class="clear" href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h2>
+  <h2><a class="clear" href="{{ $p.RelPermalink }}">{{ title $p.Title }}</a></h2>
   <span class="byline">{{ dateFormat "Jan 2, 2006" .Date }}</span>
 
   {{ $p.Summary | safeHTML }}
