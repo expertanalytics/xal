@@ -233,55 +233,25 @@ img {
     margin-top: 1em;
 }
 
-@media(display-mode: fullscreen) {
+@media(prefers-color-scheme: dark) {
     :root {
-        --background-color: #001510;
-        --main-color: #5fd37d;
-        --dark-text-color: #8fefad;
-        --light-text-color: #7a7;
-        --link-color: #5fd37d;
-        --strong-text: #9fffbd;
+        --background-color: #252525;
+        --main-color: #ccc;
+        --header-color: #3771c8;
+        --dark-text-color: #87aade;
+        --light-text-color: #888;
+        --link-color: #87aade;
+    }
+    .servicebox svg {
+        fill: #5f8dd3;
     }
     .xal-color-1 {
-        fill: #2ca05a;
+        fill: #5f8dd3;
     }
     .xal-color-2 {
-        fill: #217844;
+        fill: #3771c8;
     }
     .xal-color-3 {
-        fill: #5fd38d;
-    }
-    h1 {
-        text-shadow: 0 0 3px var(--strong-text);
-    }
-    h2, h3, strong, dt {
-        color: var(--dark-text-color);
-        text-shadow: 0 0 2px var(--strong-text);
-    }
-    a:hover {
-        text-shadow: 0 0 2px var(--strong-text);
-        text-decoration: none;
-    }
-    a {
-        color: var(--strong-text);
-        text-decoration: none;
-    }
-    nav > a:hover {
-        text-decoration: none;
-    }
-    .splash p:after {
-        content: '█';
-        animation: 1s blink step-end infinite;
-        margin-left: 3px;
-    }
-    @keyframes "blink" {
-        from, to {
-            color: transparent;
-            text-shadow: none;
-        }
-        50% {
-            color: var(--main-color);
-            text-shadow: 0 0 2px var(--strong-text);
-        }
+        fill: #87aade;
     }
 }
