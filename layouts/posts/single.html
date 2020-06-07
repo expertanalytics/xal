@@ -1,8 +1,10 @@
 {{ define "main" }}
 
-<h1 class="center">{{ .Title }}</h1>
+<h1 class="center">{{ .Title | title }}</h1>
 <span class="byline center">{{ dateFormat "Jan 2, 2006" .Date }}</span>
 
+<section>
 {{ .Content }}
+<section>
 
 {{ end }}

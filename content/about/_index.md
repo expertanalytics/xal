@@ -28,4 +28,4 @@ Laboratory](https://www.simula.no)
 Contact us for quotes and rates:
 
 - email: [post@expertanalytics.no](mailto:post@expertanalytics.no)
-- phone: [+47 900 69 915](phone:+4790069915)
+- phone: [+47 900 69 915](tel:+4790069915)

@@ -6,7 +6,9 @@
 <img src="{{ .RelPermalink }}" class="servicespic">
 {{- end }}
 
+<section>
 {{ .Content }}
+</section>
 
 {{ with .Site.GetPage .Params.Contact }}
 <div>Contact Point: <a href="mailto:{{ .Params.Email }}">{{ .Params.Email }}</a></div>
@@ -15,7 +17,7 @@
 {{ end }}
 {{ end }}
 
-<h2>Consultants: </h2>
+<h2>Consultants:</h2>
 {{ range .Pages.ByTitle }}
   <article class="bio">
     {{ with (.Resources.GetMatch "photo").Resize "400x" -}}
