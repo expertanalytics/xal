@@ -9,8 +9,34 @@
     --xal-color-1: #2c5aa0;
     --xal-color-2: #214478;
     --xal-color-3: #5f8dd3;
-    --main-font: serif;
-    --header-font: sans-serif;
+    --main-font: sans-serif, serif;
+    --header-font: ubuntubold, sans-serif;
+    --sans-regular-font: ubunturegular;
+    --text-font: serif;
+}
+
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('{{ (resources.Get "ubuntu-bold.woff2").RelPermalink }}') format('woff2');
+}
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('{{ (resources.Get "ubuntu-regular.woff2").RelPermalink }}') format('woff2');
+}
+
+#logo {
+    font-size: 300%;
+    font-family: var(--sans-regular-font);
+    margin-top: 0;
+}
+
+#logo-regular {
+    color: var(--xal-color-3);
+}
+#logo-bold {
+    color: var(--xal-color-1);
+    font-family: var(--header-font);
+    font-size: 106%;
 }
 
 .xal-color-1 {
@@ -83,6 +109,7 @@ a {
 
 a.clear {
     text-decoration: none;
+    font-family: inherit;
     color: inherit;
 }
 
@@ -121,8 +148,8 @@ header, footer {
 }
 
 footer {
-    font-family: var(--header-font);
     grid-row: 3;
+    font-family: var(--sans-regular-font);
     color: var(--light-text-color);
 }
 

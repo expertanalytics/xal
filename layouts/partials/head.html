@@ -1,6 +1,6 @@
 <head>
   {{ template "_internal/google_analytics_async.html" . }}
-  {{- $style := resources.Get "css/main.css" | resources.Minify -}}
+  {{- $style := resources.Get "css/main.css" | resources.ExecuteAsTemplate "main.css" . | resources.Minify | resources.Fingerprint -}}
   {{- $logo := resources.Get "xal.svg" | resources.Minify -}}
   {{- $favicon := resources.Get "favicon-32x32.png" -}}
   <meta name="viewport" content="width=device-width,initial-scale=1">
