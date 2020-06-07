@@ -1,9 +1,9 @@
 
 <footer>
-    <p class="hide-if-mobile">{{ (.Site.GetPage .Site.Params.director).Params.Phone }} | post@expertanalytics.no | {{ .Site.Params.copyright }}</p>
+    <span class="hide-if-mobile">{{ (.Site.GetPage .Site.Params.director).Params.Phone }} | post@expertanalytics.no | {{ .Site.Params.copyright }}</span>
     <div class="mobile-footer">
-      <span>{{ (.Site.GetPage .Site.Params.director).Params.Phone }}</span>
-      <a href="mailto:post@expertanalytics.no">post@expertanalytics.no</a>
+      <a href="tel:{{ replace (.Site.GetPage .Site.Params.director).Params.Phone " " ""  }}" class="clear">{{ (.Site.GetPage .Site.Params.director).Params.Phone }}</a>
+      <a href="mailto:post@expertanalytics.no" class="clear">post@expertanalytics.no</a>
       <span>
         {{ .Site.Params.copyright }}
       </span>

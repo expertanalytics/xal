@@ -6,9 +6,11 @@
 <img src="{{ .RelPermalink }}" class="servicespic">
 {{- end }}
 
+<section>
 {{ .Content }}
+</section>
 
-<h4>Consultants: </h4>
+<h3>Consultants:</h3>
 {{ range .Pages.ByTitle }}
   <article class="bio">
     {{ with (.Resources.GetMatch "photo").Resize "400x" -}}

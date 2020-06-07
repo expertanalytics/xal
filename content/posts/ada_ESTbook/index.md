@@ -3,8 +3,6 @@ title: "Expert Analytics and scientific outreach"
 date: 2020-05-24T20:09:04+02:00
 illustration: book_cover.png
 ---
-The Science of EST
-
 A new book showcasing the scientific challenges to be tackled by the European Solar Telescope (EST) has just seen the light. EST is a 4-meter aperture telescope designed to investigate the Sun with unprecedented detail. Equipped with state-of-the-art instruments, it will help scientists understand the magnetic coupling of the solar atmosphere. EST will be the largest solar telescope ever built in Europe and it's expected to see the so-called first light in 2027. EST is a pan-European project involving 18 countries and financed by EU's Horizon 2020 Research and Innovation programme.
 
 A series of short articles on the science problems to be addressed by EST were published on social
