@@ -3,7 +3,9 @@
 
 <h1 class="center">{{ .Title }}</h1>
 
+<section>
 {{ .Content }}
+</section>
 
 <h2>Our consultants</h2>
 {{ range .Pages }}
@@ -13,7 +15,7 @@
   <img src="{{ .RelPermalink }}" class="profilepic">
   {{- end }}
   <div class="card" id={{ .Params.anchor }}>
-    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <h3><a href="{{ .RelPermalink }}" class="clear">{{ .Title }}</a></h3>
     {{ .Summary }}
   </div>
 
