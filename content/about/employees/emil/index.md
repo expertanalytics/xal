@@ -14,7 +14,7 @@ phone: +47 40 23 10 24
 summary: |
   Analyst, strategist and technology enthusiast.
   
-  Broad industry insight and project management experience from cross-industry collaboration projects, business development, research strategy, and project planning and excecution.
+  Broad industry insight and project management experience from cross-industry collaboration projects, business development, research strategy, and project planning and execution.
 ---
 
 Emil has a background from applied mathematics, numerical analysis, and mechanical engineering. He has extensive experience from research on numerical methods for solving partial differential equations in general, and computational fluid dynamics, fluid-structure interaction, mesh generation, finite element methods and spectral element methods in particular. Programming skills in C, C++ and Python.
