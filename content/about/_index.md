@@ -6,7 +6,7 @@ weight: 20
 ---
 
 Expert Analytics is a high tech software consultancy based in Oslo, Norway. We offer
-high-quality software solutions for industrial applicaitons to both domestic and
+quality software solutions for industrial applications to both domestic and
 international customers. Our experts have years of hands-on programming experience
 combined with a solid background in the natural sciences, which translates into an
 ability to analyse and solve complex challenges. For the client, it guarantees
