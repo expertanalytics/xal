@@ -1,8 +1,10 @@
 ---
 title: "Shyft"
 weight: 40
-summary: "Shyft is an open source high performance simulator for distributed hydrological
-          simulations, with Expert Analytics AS as one of the major contributors."
+summary: >
+    Shyft is an open source high performance simulator for distributed
+    hydrological simulations, with Expert Analytics AS as one of the
+    major contributors.
 ---
 
 Hydrology is the study of water on and beneath the earth's surface, and a

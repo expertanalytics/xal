@@ -10,9 +10,9 @@
 {{ .Content }}
 </section>
 
-{{ with .Site.GetPage .Params.Contact }}
-<div>Contact Point: <a href="mailto:{{ .Params.Email }}">{{ .Params.Email }}</a></div>
-{{ with .Params.Phone }}
+{{ with .Site.GetPage .Params.contact }}
+<div>Contact Point: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></div>
+{{ with .Params.phone }}
 <div>Phone: {{ . }}</div>
 {{ end }}
 {{ end }}
