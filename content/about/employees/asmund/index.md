@@ -4,7 +4,7 @@ date: 2013-08-19
 resources:
   - name: photo
     src: asmund.jpeg
-role: Founder, managing director
+role: Founder, CEO
 linkedin: https://no.linkedin.com/in/asmundodegard
 services:
   - systems
@@ -26,8 +26,8 @@ Research Laboratory,  Norway’s top-ranked ICT research institution, he founded
 Expert Analytics in 2013, together with Ola Skavhaug.
 
 Through various positions in his career, he has obtained a broad set of
-technical and management skills, which he now put to good use as both Managing
-Director and a Senior Consultant in Expert Analytics. His main areas of
+technical and management skills, which he now put to good use as both CEO
+of Expert Analytics and Advisor to various clients. His main areas of
 technical expertise spans from advanced mathematical software development
 through web programming to scripting, and from administration of advanced ICT
 solutions and configuration management to operational work. Through
