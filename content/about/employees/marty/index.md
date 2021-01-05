@@ -13,7 +13,7 @@ projects:
   - hydropower
 ---
 
-Marty is well known in Norway and much further afield for his knowledge when it comes to Edge Analytics, predictive maintenance and energy trading. 
+CTO of Expert Analytics. Marty is well known in Norway and much further afield for his knowledge when it comes to Edge Analytics, predictive maintenance and energy trading. 
 He’s spent his last ten years building automated control systems, leading Nordic software development at Statkraft, solving complex Edge analytics problems for maritime, manufacturing, construction & energy and has been an executive technical lead for a range of organisations.
 At weekends you’ll find Marty in different countries either competing racing superbikes or using his low level software skills to modify motorcycle engine control systems where he’s built his own analytics platform and predictive traction control systems.
 
