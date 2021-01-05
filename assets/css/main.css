@@ -1,13 +1,16 @@
 :root {
-    --main-color: #214478;
+    --main-color: #333;
+    --header-color: #214478;
     --dark-text-color: #137;
     --light-text-color: #78a;
     --link-color: #2c5aa0;
-    --background-color: #f5f6f6;
+    --background-color: #fff;
     --border-color: #bcd;
     --xal-color-1: #2c5aa0;
     --xal-color-2: #214478;
     --xal-color-3: #5f8dd3;
+    --main-font: serif;
+    --header-font: sans-serif;
 }
 
 .xal-color-1 {
@@ -32,21 +35,20 @@ html {
 }
 
 body {
-    font-family: monospace;
+    font-family: var(--main-font);
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.4;
     color: var(--main-color);
     margin: 0;
     display: grid;
     min-height: 100%;
-    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-columns: auto 80ex auto;
     grid-template-rows: auto 1fr auto;
 }
 
 @media(max-width: 1300px) {
     body {
         grid-template-columns: 2em 1fr 2em;
-        font-size: 14px;
     }
 }
 
@@ -67,17 +69,21 @@ h2 {
 
 h1,
 h2,
+h3,
 strong {
+    font-family: var(--header-font);
     color: var(--dark-text-color);
 }
 
 a {
+    font-family: var(--header-font);
+    text-decoration: none;
     color: var(--link-color);
 }
 
 a.clear {
     text-decoration: none;
-    color: var(--main-color);
+    color: inherit;
 }
 
 nav > a {
@@ -98,14 +104,6 @@ main {
     justify-content: center;
 }
 
-.box {
-    text-align: center;
-}
-
-.box > span {
-    display: block;
-}
-
 main img {
     display: flex;
     align-self: center;
@@ -123,6 +121,7 @@ header, footer {
 }
 
 footer {
+    font-family: var(--header-font);
     grid-row: 3;
     color: var(--light-text-color);
 }
@@ -133,8 +132,8 @@ details > summary {
 
 ul.no-bullets {
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 dt {
@@ -148,7 +147,7 @@ ul {
 ul.no-bullets img {
     height: 1.5em;
     width: auto;
-    border: 0px;
+    border: 0;
     padding: 0.5em;
 }
 
@@ -166,21 +165,8 @@ img {
     max-height: 40vw;
 }
 
-.splash {
-    display: flex;
-    flex-direction: column;
-    min-height: 50%;
-    justify-self: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .center {
     text-align: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .bio {
@@ -189,11 +175,7 @@ img {
     grid-template-rows: auto auto;
     grid-template-areas: "photo bio" "nothing bio";
     column-gap: 2em;
-    padding-bottom: 3em;
-}
-
-.center-span {
-    vertical-align: middle;
+    padding-bottom: 2em;
 }
 
 .servicebox {
@@ -201,12 +183,14 @@ img {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
     grid-auto-rows: auto;
-    max-width: 800px;
-    text-align: left;
+    max-width: 100%;
 }
 
 
 @media(max-width: 700px) {
+    body {
+        font-size: 14px;
+    }
     .bio {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
@@ -214,7 +198,7 @@ img {
     }
 
     .hide-if-mobile {
-      display: none;
+        display: none;
     }
 
     .mobile-footer {

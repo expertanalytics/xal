@@ -14,5 +14,5 @@ director = "asmund"
     respectDoNotTrack = true
 
 [taxonomies]
-  services = "services"
-  projects = "projects"
+  service = "services"
+  project = "projects"

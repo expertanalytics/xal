@@ -23,12 +23,14 @@
 </ul>
 </div>
 
+<section>
 {{ .Content }}
+</section>
 
-<p>
+<section>
 {{ $taxo := "services" }}
 {{ with .Param $taxo }}
-    <strong>Service{{ if gt (len .) 1 }}s{{ end }}:</strong>
+    <h3>Service{{ if gt (len .) 1 }}s{{ end }}:</h3>
         <ul>
     {{ range $index, $service := . }}
         {{- with $.Site.GetPage (printf "/%s/%s" $taxo $service) -}}
@@ -37,6 +39,6 @@
     {{- end -}}
     </ul>
 {{ end }}
-</p>
+</section>
 
 {{ end }}

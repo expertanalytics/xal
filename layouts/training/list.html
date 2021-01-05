@@ -3,20 +3,20 @@
 
 <h1 class="center">{{ .Title }}</h1>
 
+<section>
 {{ .Content }}
+</section>
 
 {{ if gt (len .Sections) 0 }}
 <article>
   {{- range .Sections }}
-  <details>
-    <summary>{{ .Title }}</summary>
+    <h2>{{ .Title }}</h2>
     {{ .Content }}
     <ul>
       {{ range .Pages -}}
       <li> <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       {{- end }}
     </ul>
-  </details>
 
   {{ end }}
 </article>

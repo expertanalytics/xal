@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+<h1 class="center">{{ .Title }}</h1>
+
+{{ with .Resources.GetMatch "photo" -}}
+<img src="{{ .RelPermalink }}" class="servicespic">
+{{- end }}
+
+<section>
+{{ .Content }}
+</section>
+
+{{ with .Site.GetPage .Params.contact }}
+<div>Contact Point: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></div>
+{{ with .Params.phone }}
+<div>Phone: {{ . }}</div>
+{{ end }}
+{{ end }}
+
+<h2>Consultants:</h2>
+{{ range .Pages.ByTitle }}
+  <article class="bio">
+    {{ with (.Resources.GetMatch "photo").Resize "400x" -}}
+      <img src="{{ .RelPermalink }}" class="profilepic">
+    {{ end }}
+
+    <div class="card">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ .Summary }}
+    </div>
+  </article>
+{{ end }}
+
+{{ end }}

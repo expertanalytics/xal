@@ -1,4 +1,4 @@
-image: alpine/latest
+image: alpine/edge
 packages:
   - hugo
   - rsync
@@ -28,5 +28,5 @@ tasks:
           git push $prod_repo master --force
       else
           rsync -e "$ssh_command" --delete -rv \
-              public/ deploy@dev.xal.no:www/pr/${GITHUB_REF##*/}
+              public/ deploy@dev.xal.no:www/pr/$(echo ${GITHUB_REF##*/} | tr '[:upper:]' '[:lower:]')
       fi
