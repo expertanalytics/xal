@@ -4,7 +4,7 @@ date: 2013-08-20
 resources:
   - name: photo
     src: ola.jpeg
-role: Founder, chairman of the board
+role: Founder, CSO, chairman of the board
 linkedin: https://www.linkedin.com/in/skavhaug/
 email: ola@xal.no
 phone: +47 926 12 490
@@ -16,7 +16,7 @@ projects:
   - adam
 anchor: ola
 summary: |
-  Founder of Expert Analytics. Loves mixing high and low level languages 
+  Founder and CSO of Expert Analytics. Loves mixing high and low level languages 
   to join flexibility and high perfomance computing.
 ---
 
@@ -25,13 +25,9 @@ with years of experience in industry and academia. He is particularly
 interested in mathematical and numerical software development, algorithm
 development, high performance computing and scientific visualization.
 
-Through his work, Ola has obtained an extensive set of skills that
-allows him to understand and solve challenges in collaboration with
-different domain experts. Today's industrial challenges are generally
-multidisciplinary, and require communication across disciplines to
-successfully deliver good solutions.
+Through his work, Ola has obtained an extensive set of skills that allows him
+to understand and solve challenges in collaboration with different subject
+matter experts. In addition to his role as Chief Strategy Officer in XAL, Ola
+is available as an advisor in the renewable energy market, where he has made
+significant technological and scientific contributions since 2014.
 
-The last few years he has been working in the renewable energy sector
-in Norway. Among other projects in this field he has been a main
-developer of SHyFT for doing distributed hydrological modelling and
-forecasting.
