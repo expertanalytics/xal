@@ -4,11 +4,8 @@ date: 2021-01-18
 resources:
   - name: photo
     src: tzm.png
-role: Consultant
 linkedin: https://www.linkedin.com/in/zengaffinenthomas/
 email: tzm@xal.no
-phone: +47 401 88 448
-anchor: tzm
 ---
 
 Thomas has a background in Earth Sciences and likes solving challenging problems. During his education at NGI Oslo, UiO, and ETH Zurich, he gained valuable scripting skills to automate processes, visualise data, and perform numerical simulations.
