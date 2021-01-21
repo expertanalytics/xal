@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Thomas Zengaffinen-Morris"
 date: 2021-01-18
 resources:
   - name: photo
-    src: tzm.png
+    src: tzm.jpg
 linkedin: https://www.linkedin.com/in/zengaffinenthomas/
 email: tzm@xal.no
 ---
