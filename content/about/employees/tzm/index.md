@@ -19,3 +19,4 @@ His Master education at ETH Zurich, with Major in Geophysics, let Thomas underst
 During the Bachelor education at ETH Zurich and the University of Toulouse he learned about the major concepts and methodologies of Earth Sciences, and developed independent work and problem-solving skills.
 
 Thomas is an analytical thinker and ready to deliver digital solutions for the clients.
+
