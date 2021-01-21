@@ -6,11 +6,9 @@ resources:
     src: tzm.jpg
 linkedin: https://www.linkedin.com/in/zengaffinenthomas/
 email: tzm@xal.no
+summary: |
+  Thomas has a background in Earth Sciences and likes solving challenging problems. During his education at NGI Oslo, UiO, and ETH Zurich, he gained valuable scripting skills to automate processes, analyse and visualise data, and perform numerical simulations.
 ---
-
-Thomas has a background in Earth Sciences and likes solving challenging problems. During his education at NGI Oslo, UiO, and ETH Zurich, he gained valuable scripting skills to automate processes, analyse and visualise data, and perform numerical simulations.
-
-<!--more-->
 
 Thomas submitted his PhD thesis in Applied Mathematics in November 2020 to the University of Oslo, with supervision from NGI Oslo. His thesis deals with the effect of submarine landslide failure and flow on tsunami genesis. This topic gave him valuable insights into the complexity of this natural disaster. Through numerical modelling, he developed strong scripting skills in Python and Bash.
 
