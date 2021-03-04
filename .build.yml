@@ -2,6 +2,7 @@ image: alpine/edge
 packages:
   - hugo
   - rsync
+  - npm
 sources:
   - https://github.com/expertanalytics/xal
 environment:
@@ -14,6 +15,8 @@ tasks:
       rm -rf public
   - build: |
       cd xal
+      cd scripts/build-search-index && npm ci && cd .. && cd ..
+      ./scripts/build-search-index/build-index.js > static/gen/index.json
       hugo --minify --destination=../public || exit 1
   - deploy: |
       if [ $GITHUB_REF = refs/heads/master ]; then

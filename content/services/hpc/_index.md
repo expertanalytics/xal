@@ -5,6 +5,7 @@ resources:
     src: supercomputer.jpg
 contact: ola
 tag: hpc
+tags: ["hpc"]
 weight: 60
 ---
 

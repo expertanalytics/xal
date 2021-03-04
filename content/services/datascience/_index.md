@@ -5,6 +5,7 @@ resources:
     src: inversionsMgII.jpg
 contact: vinzenz
 tag: datascience
+tags: ["ml", "ai"]
 weight: 10
 ---
 
