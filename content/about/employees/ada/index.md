@@ -10,7 +10,7 @@ anchor: ada
 services:
   - datascience
 summary: |
-    Ada is a senior researcher with 20 years of academic experience in the field of Astrophysics during which she taught, mentored students, organized several international conferences and led her own research projects. She is engaged in scientific communication & outreach, and has published two books, delivered public lectures and appeared in the media (newspaper & radio) explaining solar physics to a general audience. She decided to take on a new challenge and apply her skills in the industry. Ada enjoys analizing complex problems and extracting valuable information from data.
+    Ada is a senior researcher with 20 years of academic experience in the field of Astrophysics during which she taught, mentored students, organized several international conferences and led her own research projects. She is engaged in scientific communication & outreach, and has published two books, delivered public lectures and appeared in the media (newspaper & radio) explaining solar physics to a general audience. She decided to take on a new challenge and apply her skills in the industry. Ada enjoys analizing complex problems and extracting valuable information out of data.
 ---
 Ada holds a PhD in Physics (specialization in Astrophysics) from the University of Barcelona, Spain,
 which she obtained in 2003. She has 20 years of experience in academia doing research in the field of Solar Physics. This background provided her with experience in handling large datasets from different spacecrafts and ground-based observatories, scientific programming, image
