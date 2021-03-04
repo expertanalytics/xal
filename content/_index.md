@@ -21,7 +21,7 @@ boxes:
     icon: assets/memory.svg
 ---
 
-Tordenskiolds gate 6, 0160, Oslo, Norway
+Møllergata 8, 0179, Oslo, Norway
 
 {{< hide-if-mobile >}}
   Get in touch with us either by e-mail to
