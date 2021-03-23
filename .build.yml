@@ -25,7 +25,7 @@ tasks:
           git config core.sshCommand "$ssh_command"
           git add .
           git commit -m 'Deploy from sr.ht'
-          git push $prod_repo master --force
+          git push $prod_repo @:master --force
       else
           rsync -e "$ssh_command" --delete -rv \
               public/ deploy@dev.xal.no:www/pr/$(echo ${GITHUB_REF##*/} | tr '[:upper:]' '[:lower:]')
