@@ -1,4 +1,4 @@
-# expertanalytics.no [![builds.sr.ht status](https://builds.sr.ht/~eigil/xal/.build.yml.svg)](https://builds.sr.ht/~eigil/xal/.build.yml)
+# expertanalytics.no [![builds.sr.ht status](https://builds.sr.ht/~eigil/xal.svg)](https://builds.sr.ht/~eigil/xal)
 
 ## Editing your bio
 
