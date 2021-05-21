@@ -1,6 +1,6 @@
 
 <footer>
-    <span class="hide-if-mobile">{{ (.Site.GetPage .Site.Params.director).Params.Phone }} | post@expertanalytics.no | {{ .Site.Params.copyright }}</span>
+	<span class="hide-if-mobile">{{ (.Site.GetPage .Site.Params.director).Params.Phone }} | post@expertanalytics.no | {{ .Site.Params.copyright }} | <a href="https://matrix.to/#/#xal:matrix.org?via=matrix.org">#xal:matrix.org</a></span>
     <div class="mobile-footer">
       <a href="tel:{{ replace (.Site.GetPage .Site.Params.director).Params.Phone " " ""  }}" class="clear">{{ (.Site.GetPage .Site.Params.director).Params.Phone }}</a>
       <a href="mailto:post@expertanalytics.no" class="clear">post@expertanalytics.no</a>
