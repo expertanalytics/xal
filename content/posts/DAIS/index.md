@@ -19,7 +19,7 @@ we will pilot and demonstrate the results of pushing AI to the EDGE.
 
 DAIS is a joint industry collaboration project including 47 European partners from 11 countries.
 The partners range from universities and research institutes to SMEs and large industry.
-Spanning over 3 years the project has a total budget of 385 MNOK and is funded by Horizon2020 and
+Spanning over 3 years the project has a total budget of 36 M€ and is funded by Horizon2020 and
 the national research councils across Europe. We look forward to participate, make new acquaintances
 and learn from our partners.
 
