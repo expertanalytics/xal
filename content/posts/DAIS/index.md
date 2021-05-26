@@ -16,7 +16,7 @@ access to bandwidth, like hydropower, shipping and offshore industry.
 ![Generator top with microphone](Generator_top_microphone.png)
 
 As part of the DAIS-project, we are responsible for developing machine learning
-models that are able to train and run on EDGE-devices, aggregate learning form multiple local devices,
+models that are able to train and run on EDGE-devices, aggregate learning from multiple local devices,
 securely control events, and communicate results to a centralized service. Applied to a hydropower use-case,
 we will pilot and demonstrate the results of pushing AI to the EDGE.
 
