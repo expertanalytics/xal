@@ -10,10 +10,9 @@ media between May 2018 and April 2020. The goal was to raise awareness of solar 
 of the future EST among a general, non-specialised audience. A total of 77 articles were written by professional
 solar astronomers from 30 different European research centers and universities. All the articles are now collected in this book.
 
+<!--more-->
 [Ada Ortiz-Carbonell](https://expertanalytics.no/about/employees/ada/) is editor and author of two articles in the book. She is a data scientist at Expert Analytics with a background in academia. Her field of research is Solar Physics, and in addition to doing research she communicates science in education & outreach activities.
 
 The book can be downloaded as a free PDF file [here](http://www.est-east.eu/est/index.php?option=com_content&view=article&id=788&Itemid=622&lang=en)
-
-<!--more-->
 
 ![Cover of the new EST education & outreach book](book_cover.png)
