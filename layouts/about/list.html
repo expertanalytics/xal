@@ -8,7 +8,7 @@
 </section>
 
 <h2>Our consultants</h2>
-{{ range .Pages }}
+{{ range .Pages.ByTitle }}
 <article class="bio">
 
   {{ with (.Resources.GetMatch "photo").Resize "400x" -}}

@@ -5,27 +5,10 @@ menu: main
 weight: 20
 ---
 
-Expert Analytics is a high tech software consultancy based in Oslo, Norway. We offer
-quality software solutions for industrial applications to both domestic and
-international customers. Our experts have years of hands-on programming experience
-combined with a solid background in the natural sciences, which translates into an
-ability to analyse and solve complex challenges. For the client, it guarantees
-that our solutions will meet their needs and beyond.
+Expert Analytics AS is a science and technology consultancy company located in Oslo, Norway. We offer high-quality technology solutions to both domestic and international customers. Our primary fields of expertise are data science, mathematical modelling and advanced back-end software development. The company has close ties to local research institutes and 2/3 of our employees hold a PhD in mathematics, physics or computer science. We have special expertise in high performance computing, advanced data visualization, data science and machine learning for extracting information from large unstructured data sets.
 
-We offer services within the following fields:
+Expert Analytics has a strong focus on research and development and has a keen interest in the use of computational methods and data science in the industry. The company therefore sees great value and mutual benefit in close interactions with both the scientific community and our industrial partners. Our main focus areas in the industry are towards the energy sector like wind- and hydropower plants, heavy machinery and automation of manufacturing.
 
-- Data analysis
-- Numerical programming
-- Machine learning
-- General software development, such as applications, web, libraries,
-  integrations, scripting, etc.
-- Advisory services within ICT
-- Training
+Our experts have years of hands-on experience in computational science and robust industrial software development. We thrive on complex challenges and use scientific methods and technical excellence to develop flexible and tailored solutions that close the gap between needs and tools.
 
-Expert Analytics was founded in 2013, and originated from [Simula Research
-Laboratory](https://www.simula.no) 
-
-Contact us for quotes and rates:
-
-- email: [post@expertanalytics.no](mailto:post@expertanalytics.no)
-- phone: [+47 900 69 915](tel:+4790069915)
+Our consultants can function as an integrated part of the client's development team, or we can take on a project management role with the overall responsibility for the development. We can engage in both small short-term projects and strategic long-lasting efforts.
