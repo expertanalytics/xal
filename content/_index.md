@@ -21,9 +21,14 @@ boxes:
     icon: assets/memory.svg
 ---
 
-Expert Analytics is a high tech software consultancy based in Oslo, Norway. We offer
-quality software solutions for industrial applications to both domestic and
-international customers. Our experts have years of hands-on programming experience
-combined with a solid background in the natural sciences, which translates into an
-ability to analyse and solve complex challenges. For the client, it guarantees
-that our solutions will meet their needs and beyond.
+On Demand Expertise in Scientific & Industrial Data Analytics
+
+We are a group of highly skilled software consultants with a solid background in
+the natural sciences. Our technology experts thrive on complex challenges and use
+their scientific methodology to model and implement tailored solutions for your
+industrial challenges.
+
+As Industry 4.0, IOT and Cloud services make more and more data and platforms available,
+we help our clients by closing the gap between needs and tools. In close collaboration with
+our clients' domain experts and DevOps teams we provide flexible infrastructure solutions,
+secure data acquisition frameworks and robust methods to make sense of big data.
