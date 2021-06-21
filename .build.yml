@@ -5,7 +5,7 @@ packages:
   - curl
   - jq
 sources:
-  - https://github.com/expertanalytics/xal
+  - https://github.com/expertanalytics/website
 environment:
   prod_repo: git@github.com:expertanalytics/expertanalytics.github.io.git
   ssh_command: ssh -o StrictHostKeyChecking=no
@@ -16,12 +16,12 @@ tasks:
   - setup: |
       rm -rf public
   - build: |
-      cd xal
+      cd website
       hugo --minify --destination=../public || exit 1
   - deploy: |
       if [ $GITHUB_REF = refs/heads/master ]; then
           curl -H @.github_auth_header -H "Accept: application/vnd.github.ant-man-preview+json" \
-              -X POST https://api.github.com/repos/expertanalytics/xal/deployments \
+              -X POST https://api.github.com/repos/expertanalytics/website/deployments \
               -d "{\"ref\": \"$GITHUB_REF\", \"auto_merge\": false, \"required_contexts\": []}" \
               | jq -r .statuses_url > .statuses_url
           cd public
@@ -38,7 +38,7 @@ tasks:
       else
           env_name=$(echo ${GITHUB_REF##*/} | tr '[:upper:]' '[:lower:]')
           curl -H @.github_auth_header -H "Accept: application/vnd.github.ant-man-preview+json" \
-              -X POST https://api.github.com/repos/expertanalytics/xal/deployments \
+              -X POST https://api.github.com/repos/expertanalytics/website/deployments \
               -d "{\"ref\": \"$GITHUB_REF\", \"environment\": \"pr-$env_name\", \"auto_merge\": false, \"required_contexts\": []}" \
               | jq -r .statuses_url > .statuses_url
           env_url=http://$env_name.pr.dev.xal.no/
